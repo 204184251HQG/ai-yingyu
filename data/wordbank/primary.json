@@ -1,0 +1,7147 @@
+[
+  {
+    "word": "hi",
+    "meaning": "嗨",
+    "pos": "int",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Hi! Nice to meet you here.",
+    "example_zh": "嘿！很高兴在这里见到你。",
+    "level": "primary"
+  },
+  {
+    "word": "oh",
+    "meaning": "哦",
+    "pos": "int",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Oh, I almost forgot to bring my key.",
+    "example_zh": "哦，我差点忘记带钥匙了。",
+    "level": "primary"
+  },
+  {
+    "word": "ok",
+    "meaning": "好的",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He answered the teacher's question ok.",
+    "example_zh": "他好回答了老师的问题。",
+    "level": "primary"
+  },
+  {
+    "word": "sure",
+    "meaning": "当然",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "She smiled at the baby sure.",
+    "example_zh": "她当然对宝宝微笑。",
+    "level": "primary"
+  },
+  {
+    "word": "fine",
+    "meaning": "好的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The new project sounds quite fine to me.",
+    "example_zh": "这个新项目听起来相当好。",
+    "level": "primary"
+  },
+  {
+    "word": "well",
+    "meaning": "好的",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The children listened well during the story.",
+    "example_zh": "听故事时孩子们好听着。",
+    "level": "primary"
+  },
+  {
+    "word": "today",
+    "meaning": "今天",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "We have an English test today.",
+    "example_zh": "今天我们有一场英语测验。",
+    "level": "primary"
+  },
+  {
+    "word": "tonight",
+    "meaning": "今晚",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "I will watch a movie with my family tonight.",
+    "example_zh": "今晚我会和家人一起看电影。",
+    "level": "primary"
+  },
+  {
+    "word": "here",
+    "meaning": "这里",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Please put the umbrella here by the door.",
+    "example_zh": "请把雨伞放在门边这里。",
+    "level": "primary"
+  },
+  {
+    "word": "there",
+    "meaning": "那里",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Look! There is a rainbow over there.",
+    "example_zh": "看！那边有一道彩虹。",
+    "level": "primary"
+  },
+  {
+    "word": "this",
+    "meaning": "这个",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "This is the most interesting book I have read.",
+    "example_zh": "这是我读过的最有趣的一本书。",
+    "level": "primary"
+  },
+  {
+    "word": "that",
+    "meaning": "那个",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "That over there is our new English teacher.",
+    "example_zh": "那边那位是我们的新英语老师。",
+    "level": "primary"
+  },
+  {
+    "word": "these",
+    "meaning": "这些",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "These are my favorite story books.",
+    "example_zh": "这些是我最喜欢的故事书。",
+    "level": "primary"
+  },
+  {
+    "word": "those",
+    "meaning": "那些",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Those flowers in the garden look beautiful.",
+    "example_zh": "花园里那些花看起来很漂亮。",
+    "level": "primary"
+  },
+  {
+    "word": "who",
+    "meaning": "谁",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Who is the boy standing by the door?",
+    "example_zh": "站在门边的那个男孩是谁？",
+    "level": "primary"
+  },
+  {
+    "word": "what",
+    "meaning": "什么",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "What did you have for breakfast this morning?",
+    "example_zh": "你今天早上吃了什么早餐？",
+    "level": "primary"
+  },
+  {
+    "word": "where",
+    "meaning": "哪里",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Where do you usually have lunch?",
+    "example_zh": "你通常在哪里吃午饭？",
+    "level": "primary"
+  },
+  {
+    "word": "when",
+    "meaning": "何时",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "When I came home, my dad was cooking.",
+    "example_zh": "我回到家时，爸爸正在做饭。",
+    "level": "primary"
+  },
+  {
+    "word": "why",
+    "meaning": "为什么",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The children listened why during the story.",
+    "example_zh": "听故事时孩子们为什么听着。",
+    "level": "primary"
+  },
+  {
+    "word": "how",
+    "meaning": "怎么",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The children listened how during the story.",
+    "example_zh": "听故事时孩子们怎么听着。",
+    "level": "primary"
+  },
+  {
+    "word": "again",
+    "meaning": "再次",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He answered the teacher's question again.",
+    "example_zh": "他再次回答了老师的问题。",
+    "level": "primary"
+  },
+  {
+    "word": "also",
+    "meaning": "也",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "She closed the door also so as not to wake the baby.",
+    "example_zh": "她也关上门，以免吓醒宝宝。",
+    "level": "primary"
+  },
+  {
+    "word": "very",
+    "meaning": "非常",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "This question is very difficult for me.",
+    "example_zh": "这道题对我来说非常难。",
+    "level": "primary"
+  },
+  {
+    "word": "much",
+    "meaning": "许多",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He doesn't have much time today.",
+    "example_zh": "他今天没有太多时间。",
+    "level": "primary"
+  },
+  {
+    "word": "more",
+    "meaning": "更多",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Could you give me a little more juice?",
+    "example_zh": "你能再给我一点果汁吗？",
+    "level": "primary"
+  },
+  {
+    "word": "all",
+    "meaning": "全部",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "All the students are ready for the exam.",
+    "example_zh": "所有学生都准备好考试了。",
+    "level": "primary"
+  },
+  {
+    "word": "some",
+    "meaning": "一些",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Would you like some apples?",
+    "example_zh": "你想要一些苹果吗？",
+    "level": "primary"
+  },
+  {
+    "word": "any",
+    "meaning": "任何",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Do you have any questions for me?",
+    "example_zh": "你有什么问题要问我吗？",
+    "level": "primary"
+  },
+  {
+    "word": "every",
+    "meaning": "每个",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "I read English books every day.",
+    "example_zh": "我每天都读英语书。",
+    "level": "primary"
+  },
+  {
+    "word": "never",
+    "meaning": "从不",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He never eats breakfast in a hurry.",
+    "example_zh": "他从不匆忙吃早餐。",
+    "level": "primary"
+  },
+  {
+    "word": "always",
+    "meaning": "总是",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "She is always kind to her classmates.",
+    "example_zh": "她对同学们总是很友善。",
+    "level": "primary"
+  },
+  {
+    "word": "sometimes",
+    "meaning": "有时",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Sometimes I help my mom cook dinner.",
+    "example_zh": "有时我会帮妈妈做晚饭。",
+    "level": "primary"
+  },
+  {
+    "word": "often",
+    "meaning": "经常",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "My dad often takes me to the park.",
+    "example_zh": "爸爸经常带我去公园。",
+    "level": "primary"
+  },
+  {
+    "word": "nice",
+    "meaning": "好的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather nice.",
+    "example_zh": "她对这件事的看法相当好。",
+    "level": "primary"
+  },
+  {
+    "word": "kind",
+    "meaning": "友善的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The result of the experiment was kind.",
+    "example_zh": "实验的结果友善。",
+    "level": "primary"
+  },
+  {
+    "word": "smart",
+    "meaning": "聪明的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Many people consider this idea smart.",
+    "example_zh": "很多人认为这个想法聪明。",
+    "level": "primary"
+  },
+  {
+    "word": "busy",
+    "meaning": "忙的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The new project sounds quite busy to me.",
+    "example_zh": "这个新项目听起来相当忙。",
+    "level": "primary"
+  },
+  {
+    "word": "free",
+    "meaning": "空闲的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He found the lecture very free.",
+    "example_zh": "他觉得这场讲座非常空闲。",
+    "level": "primary"
+  },
+  {
+    "word": "easy",
+    "meaning": "容易的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather easy.",
+    "example_zh": "她对这件事的看法相当容易。",
+    "level": "primary"
+  },
+  {
+    "word": "hard",
+    "meaning": "困难的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "It will be a hard day for the whole class.",
+    "example_zh": "对全班来说这会是困难的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "quick",
+    "meaning": "快的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "His handwriting is surprisingly quick.",
+    "example_zh": "他的字迹出乎意料地快。",
+    "level": "primary"
+  },
+  {
+    "word": "slow",
+    "meaning": "慢的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Many people consider this idea slow.",
+    "example_zh": "很多人认为这个想法慢。",
+    "level": "primary"
+  },
+  {
+    "word": "late",
+    "meaning": "迟的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The new project sounds quite late to me.",
+    "example_zh": "这个新项目听起来相当迟。",
+    "level": "primary"
+  },
+  {
+    "word": "early",
+    "meaning": "早的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "To us, the question seemed early at first.",
+    "example_zh": "这个问题在我们看来一开始早。",
+    "level": "primary"
+  },
+  {
+    "word": "soon",
+    "meaning": "很快",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The bus will arrive soon.",
+    "example_zh": "公共汽车很快就要到了。",
+    "level": "primary"
+  },
+  {
+    "word": "now",
+    "meaning": "现在",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Please come downstairs now; dinner is ready.",
+    "example_zh": "现在请下楼，晚饭好了。",
+    "level": "primary"
+  },
+  {
+    "word": "then",
+    "meaning": "然后",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "She finished her homework, then went to bed.",
+    "example_zh": "她做完作业，然后就上床睡觉了。",
+    "level": "primary"
+  },
+  {
+    "word": "just",
+    "meaning": "只是",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He answered the teacher's question just.",
+    "example_zh": "他只是回答了老师的问题。",
+    "level": "primary"
+  },
+  {
+    "word": "still",
+    "meaning": "仍然",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The old man speaks still about his hometown.",
+    "example_zh": "老人仍然谈起他的家乡。",
+    "level": "primary"
+  },
+  {
+    "word": "yet",
+    "meaning": "还",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The old man speaks yet about his hometown.",
+    "example_zh": "老人还谈起他的家乡。",
+    "level": "primary"
+  },
+  {
+    "word": "miss",
+    "meaning": "想念",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "She is learning how to miss this year.",
+    "example_zh": "她今年正在学习如何想念。",
+    "level": "primary"
+  },
+  {
+    "word": "try",
+    "meaning": "尝试",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "My father teaches me how to try.",
+    "example_zh": "爸爸教我如何尝试。",
+    "level": "primary"
+  },
+  {
+    "word": "can",
+    "meaning": "能",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "I can swim very well now.",
+    "example_zh": "我现在游泳游得很好。",
+    "level": "primary"
+  },
+  {
+    "word": "may",
+    "meaning": "可以",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "May I borrow your eraser, please?",
+    "example_zh": "我可以借一下你的橡皮吗？",
+    "level": "primary"
+  },
+  {
+    "word": "will",
+    "meaning": "将",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "I will visit my grandparents next Sunday.",
+    "example_zh": "下星期天我会去看望祖父母。",
+    "level": "primary"
+  },
+  {
+    "word": "must",
+    "meaning": "必须",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Students must wear school uniforms on Monday.",
+    "example_zh": "周一学生必须穿校服。",
+    "level": "primary"
+  },
+  {
+    "word": "should",
+    "meaning": "应该",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "You should drink more water every day.",
+    "example_zh": "你每天应该多喝水。",
+    "level": "primary"
+  },
+  {
+    "word": "old",
+    "meaning": "老的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "His handwriting is surprisingly old.",
+    "example_zh": "他的字迹出乎意料地老。",
+    "level": "primary"
+  },
+  {
+    "word": "young",
+    "meaning": "年轻的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The new project sounds quite young to me.",
+    "example_zh": "这个新项目听起来相当年轻。",
+    "level": "primary"
+  },
+  {
+    "word": "new",
+    "meaning": "新的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Many people consider this idea new.",
+    "example_zh": "很多人认为这个想法新。",
+    "level": "primary"
+  },
+  {
+    "word": "good",
+    "meaning": "好的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Many people consider this idea good.",
+    "example_zh": "很多人认为这个想法好。",
+    "level": "primary"
+  },
+  {
+    "word": "bad",
+    "meaning": "坏的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The result of the experiment was bad.",
+    "example_zh": "实验的结果坏。",
+    "level": "primary"
+  },
+  {
+    "word": "right",
+    "meaning": "对的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The new project sounds quite right to me.",
+    "example_zh": "这个新项目听起来相当对。",
+    "level": "primary"
+  },
+  {
+    "word": "wrong",
+    "meaning": "错的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "He found the lecture very wrong.",
+    "example_zh": "他觉得这场讲座非常错。",
+    "level": "primary"
+  },
+  {
+    "word": "true",
+    "meaning": "真的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The result of the experiment was true.",
+    "example_zh": "实验的结果真。",
+    "level": "primary"
+  },
+  {
+    "word": "ready",
+    "meaning": "准备好",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Many people consider this idea ready.",
+    "example_zh": "很多人认为这个想法准备好。",
+    "level": "primary"
+  },
+  {
+    "word": "tired",
+    "meaning": "累的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The result of the experiment was tired.",
+    "example_zh": "实验的结果累。",
+    "level": "primary"
+  },
+  {
+    "word": "sick",
+    "meaning": "生病的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather sick.",
+    "example_zh": "她对这件事的看法相当生病。",
+    "level": "primary"
+  },
+  {
+    "word": "hungry",
+    "meaning": "饥饿的",
+    "phonetic": "/'hʌŋɡri/",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 3,
+    "example": "I am very hungry.",
+    "example_zh": "我很饿。",
+    "level": "primary"
+  },
+  {
+    "word": "thirsty",
+    "meaning": "渴的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather thirsty.",
+    "example_zh": "她对这件事的看法相当渴。",
+    "level": "primary"
+  },
+  {
+    "word": "strong",
+    "meaning": "强壮的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The result of the experiment was strong.",
+    "example_zh": "实验的结果强壮。",
+    "level": "primary"
+  },
+  {
+    "word": "weak",
+    "meaning": "虚弱的",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "The result of the experiment was weak.",
+    "example_zh": "实验的结果虚弱。",
+    "level": "primary"
+  },
+  {
+    "word": "both",
+    "meaning": "两者都",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Both of my parents are teachers.",
+    "example_zh": "我父母都是老师。",
+    "level": "primary"
+  },
+  {
+    "word": "each",
+    "meaning": "每个",
+    "pos": "pron",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Each child got a small gift.",
+    "example_zh": "每个孩子都得到了一份小礼物。",
+    "level": "primary"
+  },
+  {
+    "word": "many",
+    "meaning": "许多",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "There are many flowers in the garden.",
+    "example_zh": "花园里有许多花。",
+    "level": "primary"
+  },
+  {
+    "word": "few",
+    "meaning": "很少",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Few students passed the math test.",
+    "example_zh": "很少有学生通过了数学测验。",
+    "level": "primary"
+  },
+  {
+    "word": "bag",
+    "meaning": "书包",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about bag.",
+    "example_zh": "姐姐经常谈论书包。",
+    "level": "primary"
+  },
+  {
+    "word": "schoolbag",
+    "meaning": "书包",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Schoolbag plays an important role in our daily life.",
+    "example_zh": "书包在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "notebook",
+    "meaning": "笔记本",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Notebook is an important topic in this book.",
+    "example_zh": "笔记本是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "paper",
+    "meaning": "纸",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Children should know more about paper.",
+    "example_zh": "孩子们应该多了解纸。",
+    "level": "primary"
+  },
+  {
+    "word": "ink",
+    "meaning": "墨水",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in ink.",
+    "example_zh": "许多学生对墨水感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "glue",
+    "meaning": "胶水",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Have you ever heard of glue before?",
+    "example_zh": "你以前听说过胶水吗？",
+    "level": "primary"
+  },
+  {
+    "word": "scissors",
+    "meaning": "剪刀",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Children should know more about scissors.",
+    "example_zh": "孩子们应该多了解剪刀。",
+    "level": "primary"
+  },
+  {
+    "word": "marker",
+    "meaning": "马克笔",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in marker.",
+    "example_zh": "许多学生对马克笔感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "chalk",
+    "meaning": "粉笔",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in chalk.",
+    "example_zh": "许多学生对粉笔感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "board",
+    "meaning": "黑板",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The teacher mentioned board during class.",
+    "example_zh": "老师在课上提到了黑板。",
+    "level": "primary"
+  },
+  {
+    "word": "math",
+    "meaning": "数学",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We learned about math in our last lesson.",
+    "example_zh": "我们上节课学了数学。",
+    "level": "primary"
+  },
+  {
+    "word": "English",
+    "meaning": "英语",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The teacher mentioned English during class.",
+    "example_zh": "老师在课上提到了英语。",
+    "level": "primary"
+  },
+  {
+    "word": "Chinese",
+    "meaning": "语文",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of Chinese.",
+    "example_zh": "这篇文章给出了一个关于语文的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "science",
+    "meaning": "科学",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about science yesterday.",
+    "example_zh": "昨天我们就科学进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "art",
+    "meaning": "美术",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We learned about art in our last lesson.",
+    "example_zh": "我们上节课学了美术。",
+    "level": "primary"
+  },
+  {
+    "word": "music",
+    "meaning": "音乐",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Music is an important topic in this book.",
+    "example_zh": "音乐是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "PE",
+    "meaning": "体育",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We learned about PE in our last lesson.",
+    "example_zh": "我们上节课学了体育。",
+    "level": "primary"
+  },
+  {
+    "word": "chair",
+    "meaning": "椅子",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about chair.",
+    "example_zh": "姐姐经常谈论椅子。",
+    "level": "primary"
+  },
+  {
+    "word": "desk",
+    "meaning": "课桌",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Desk plays an important role in our daily life.",
+    "example_zh": "课桌在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "exam",
+    "meaning": "考试",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of exam.",
+    "example_zh": "这篇文章给出了一个关于考试的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "test",
+    "meaning": "测试",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The teacher mentioned test during class.",
+    "example_zh": "老师在课上提到了测试。",
+    "level": "primary"
+  },
+  {
+    "word": "quiz",
+    "meaning": "小测",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Quiz is an important topic in this book.",
+    "example_zh": "小测是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "grade",
+    "meaning": "年级",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in grade.",
+    "example_zh": "许多学生对年级感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "study",
+    "meaning": "学习",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "She is learning how to study this year.",
+    "example_zh": "她今年正在学习如何学习。",
+    "level": "primary"
+  },
+  {
+    "word": "learn",
+    "meaning": "学习",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Let me show you how to learn.",
+    "example_zh": "让我告诉你如何学习。",
+    "level": "primary"
+  },
+  {
+    "word": "teach",
+    "meaning": "教",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "It's not easy to teach at first.",
+    "example_zh": "一开始教并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "class",
+    "meaning": "班级",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of class.",
+    "example_zh": "这篇文章给出了一个关于班级的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "hall",
+    "meaning": "大厅",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about hall yesterday.",
+    "example_zh": "昨天我们就大厅进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "gym",
+    "meaning": "体育馆",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in gym.",
+    "example_zh": "许多学生对体育馆感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "playground",
+    "meaning": "操场",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about playground.",
+    "example_zh": "姐姐经常谈论操场。",
+    "level": "primary"
+  },
+  {
+    "word": "lab",
+    "meaning": "实验室",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about lab.",
+    "example_zh": "姐姐经常谈论实验室。",
+    "level": "primary"
+  },
+  {
+    "word": "period",
+    "meaning": "课时",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The teacher mentioned period during class.",
+    "example_zh": "老师在课上提到了课时。",
+    "level": "primary"
+  },
+  {
+    "word": "break",
+    "meaning": "休息",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of break.",
+    "example_zh": "这篇文章给出了一个关于休息的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "holiday",
+    "meaning": "假日",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of holiday.",
+    "example_zh": "这篇文章给出了一个关于假日的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "vacation",
+    "meaning": "假期",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We learned about vacation in our last lesson.",
+    "example_zh": "我们上节课学了假期。",
+    "level": "primary"
+  },
+  {
+    "word": "uniform",
+    "meaning": "校服",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about uniform yesterday.",
+    "example_zh": "昨天我们就校服进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "dictionary",
+    "meaning": "字典",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about dictionary yesterday.",
+    "example_zh": "昨天我们就字典进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "textbook",
+    "meaning": "课本",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about textbook yesterday.",
+    "example_zh": "昨天我们就课本进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "story",
+    "meaning": "故事",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Story is an important topic in this book.",
+    "example_zh": "故事是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "poem",
+    "meaning": "诗",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of poem.",
+    "example_zh": "这篇文章给出了一个关于诗的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "essay",
+    "meaning": "作文",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about essay.",
+    "example_zh": "姐姐经常谈论作文。",
+    "level": "primary"
+  },
+  {
+    "word": "notes",
+    "meaning": "笔记",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in notes.",
+    "example_zh": "许多学生对笔记感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "page",
+    "meaning": "页",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about page.",
+    "example_zh": "姐姐经常谈论页。",
+    "level": "primary"
+  },
+  {
+    "word": "line",
+    "meaning": "行",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of line.",
+    "example_zh": "这篇文章给出了一个关于行的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "word",
+    "meaning": "单词",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Have you ever heard of word before?",
+    "example_zh": "你以前听说过单词吗？",
+    "level": "primary"
+  },
+  {
+    "word": "letter",
+    "meaning": "字母",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "The article gave a clear example of letter.",
+    "example_zh": "这篇文章给出了一个关于字母的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "sentence",
+    "meaning": "句子",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We learned about sentence in our last lesson.",
+    "example_zh": "我们上节课学了句子。",
+    "level": "primary"
+  },
+  {
+    "word": "question",
+    "meaning": "问题",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Question plays an important role in our daily life.",
+    "example_zh": "问题在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "answer",
+    "meaning": "答案",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about answer yesterday.",
+    "example_zh": "昨天我们就答案进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "homework",
+    "meaning": "作业",
+    "phonetic": "/'həʊmwɜːk/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 2,
+    "example": "I finished my homework.",
+    "example_zh": "我做完了作业。",
+    "level": "primary"
+  },
+  {
+    "word": "review",
+    "meaning": "复习",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "You should review more carefully next time.",
+    "example_zh": "下次你应该更仔细地复习。",
+    "level": "primary"
+  },
+  {
+    "word": "memorize",
+    "meaning": "记住",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Don't forget to memorize before you leave.",
+    "example_zh": "你走之前别忘了记住。",
+    "level": "primary"
+  },
+  {
+    "word": "spell",
+    "meaning": "拼写",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "It's not easy to spell at first.",
+    "example_zh": "一开始拼写并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "translate",
+    "meaning": "翻译",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Let me show you how to translate.",
+    "example_zh": "让我告诉你如何翻译。",
+    "level": "primary"
+  },
+  {
+    "word": "correct",
+    "meaning": "正确的",
+    "pos": "adj",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather correct.",
+    "example_zh": "她对这件事的看法相当正确。",
+    "level": "primary"
+  },
+  {
+    "word": "mark",
+    "meaning": "分数",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Have you ever heard of mark before?",
+    "example_zh": "你以前听说过分数吗？",
+    "level": "primary"
+  },
+  {
+    "word": "plus",
+    "meaning": "加",
+    "pos": "prep",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Two plus three equals five.",
+    "example_zh": "二加三等于五。",
+    "level": "primary"
+  },
+  {
+    "word": "minus",
+    "meaning": "减",
+    "pos": "prep",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Ten minus four is six.",
+    "example_zh": "十减四是六。",
+    "level": "primary"
+  },
+  {
+    "word": "times",
+    "meaning": "乘",
+    "pos": "prep",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Three times four equals twelve.",
+    "example_zh": "三乘以四等于十二。",
+    "level": "primary"
+  },
+  {
+    "word": "divide",
+    "meaning": "除",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My father teaches me how to divide.",
+    "example_zh": "爸爸教我如何除。",
+    "level": "primary"
+  },
+  {
+    "word": "add",
+    "meaning": "加",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "I want to add better than before.",
+    "example_zh": "我想比以前加得更好。",
+    "level": "primary"
+  },
+  {
+    "word": "sum",
+    "meaning": "总数",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My sister often talks about sum.",
+    "example_zh": "姐姐经常谈论总数。",
+    "level": "primary"
+  },
+  {
+    "word": "read",
+    "meaning": "阅读",
+    "phonetic": "/riːd/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 2,
+    "example": "I read every night.",
+    "example_zh": "我每晚阅读。",
+    "level": "primary"
+  },
+  {
+    "word": "listen",
+    "meaning": "听",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We need to listen together as a team.",
+    "example_zh": "我们需要作为一个团队一起听。",
+    "level": "primary"
+  },
+  {
+    "word": "draw",
+    "meaning": "画",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Let me show you how to draw.",
+    "example_zh": "让我告诉你如何画。",
+    "level": "primary"
+  },
+  {
+    "word": "sing",
+    "meaning": "唱",
+    "phonetic": "/sɪŋ/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She likes to sing.",
+    "example_zh": "她喜欢唱歌。",
+    "level": "primary"
+  },
+  {
+    "word": "dance",
+    "meaning": "跳舞",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "You should dance more carefully next time.",
+    "example_zh": "下次你应该更仔细地跳舞。",
+    "level": "primary"
+  },
+  {
+    "word": "write",
+    "meaning": "写",
+    "phonetic": "/raɪt/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 2,
+    "example": "Write your name here.",
+    "example_zh": "在这里写你的名字。",
+    "level": "primary"
+  },
+  {
+    "word": "speak",
+    "meaning": "说",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "My father teaches me how to speak.",
+    "example_zh": "爸爸教我如何说。",
+    "level": "primary"
+  },
+  {
+    "word": "report",
+    "meaning": "报告",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Report plays an important role in our daily life.",
+    "example_zh": "报告在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "paint",
+    "meaning": "绘画",
+    "pos": "v",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "I want to paint better than before.",
+    "example_zh": "我想比以前绘画得更好。",
+    "level": "primary"
+  },
+  {
+    "word": "sport",
+    "meaning": "运动",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in sport.",
+    "example_zh": "许多学生对运动感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "team",
+    "meaning": "团队",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Many students are interested in team.",
+    "example_zh": "许多学生对团队感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "meeting",
+    "meaning": "会议",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "We had a long discussion about meeting yesterday.",
+    "example_zh": "昨天我们就会议进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "plan",
+    "meaning": "计划",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "Have you ever heard of plan before?",
+    "example_zh": "你以前听说过计划吗？",
+    "level": "primary"
+  },
+  {
+    "word": "lion",
+    "meaning": "狮子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned lion during class.",
+    "example_zh": "老师在课上提到了狮子。",
+    "level": "primary"
+  },
+  {
+    "word": "tiger",
+    "meaning": "老虎",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned tiger during class.",
+    "example_zh": "老师在课上提到了老虎。",
+    "level": "primary"
+  },
+  {
+    "word": "bear",
+    "meaning": "熊",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Children should know more about bear.",
+    "example_zh": "孩子们应该多了解熊。",
+    "level": "primary"
+  },
+  {
+    "word": "wolf",
+    "meaning": "狼",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Wolf plays an important role in our daily life.",
+    "example_zh": "狼在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "fox",
+    "meaning": "狐狸",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We had a long discussion about fox yesterday.",
+    "example_zh": "昨天我们就狐狸进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "rabbit",
+    "meaning": "兔子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "My sister often talks about rabbit.",
+    "example_zh": "姐姐经常谈论兔子。",
+    "level": "primary"
+  },
+  {
+    "word": "mouse",
+    "meaning": "老鼠",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of mouse before?",
+    "example_zh": "你以前听说过老鼠吗？",
+    "level": "primary"
+  },
+  {
+    "word": "horse",
+    "meaning": "马",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of horse before?",
+    "example_zh": "你以前听说过马吗？",
+    "level": "primary"
+  },
+  {
+    "word": "cow",
+    "meaning": "牛",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Cow is an important topic in this book.",
+    "example_zh": "牛是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "pig",
+    "meaning": "猪",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned pig during class.",
+    "example_zh": "老师在课上提到了猪。",
+    "level": "primary"
+  },
+  {
+    "word": "sheep",
+    "meaning": "羊",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about sheep in our last lesson.",
+    "example_zh": "我们上节课学了羊。",
+    "level": "primary"
+  },
+  {
+    "word": "goat",
+    "meaning": "山羊",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned goat during class.",
+    "example_zh": "老师在课上提到了山羊。",
+    "level": "primary"
+  },
+  {
+    "word": "duck",
+    "meaning": "鸭",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We had a long discussion about duck yesterday.",
+    "example_zh": "昨天我们就鸭进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "chicken",
+    "meaning": "鸡",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "My sister often talks about chicken.",
+    "example_zh": "姐姐经常谈论鸡。",
+    "level": "primary"
+  },
+  {
+    "word": "hen",
+    "meaning": "母鸡",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Hen plays an important role in our daily life.",
+    "example_zh": "母鸡在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "fish",
+    "meaning": "鱼",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Fish plays an important role in our daily life.",
+    "example_zh": "鱼在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "frog",
+    "meaning": "青蛙",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of frog before?",
+    "example_zh": "你以前听说过青蛙吗？",
+    "level": "primary"
+  },
+  {
+    "word": "snake",
+    "meaning": "蛇",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of snake.",
+    "example_zh": "这篇文章给出了一个关于蛇的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "bee",
+    "meaning": "蜜蜂",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Children should know more about bee.",
+    "example_zh": "孩子们应该多了解蜜蜂。",
+    "level": "primary"
+  },
+  {
+    "word": "ant",
+    "meaning": "蚂蚁",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "My sister often talks about ant.",
+    "example_zh": "姐姐经常谈论蚂蚁。",
+    "level": "primary"
+  },
+  {
+    "word": "fly",
+    "meaning": "苍蝇",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Children should know more about fly.",
+    "example_zh": "孩子们应该多了解苍蝇。",
+    "level": "primary"
+  },
+  {
+    "word": "spider",
+    "meaning": "蜘蛛",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of spider.",
+    "example_zh": "这篇文章给出了一个关于蜘蛛的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "panda",
+    "meaning": "熊猫",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about panda in our last lesson.",
+    "example_zh": "我们上节课学了熊猫。",
+    "level": "primary"
+  },
+  {
+    "word": "monkey",
+    "meaning": "猴子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned monkey during class.",
+    "example_zh": "老师在课上提到了猴子。",
+    "level": "primary"
+  },
+  {
+    "word": "deer",
+    "meaning": "鹿",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Children should know more about deer.",
+    "example_zh": "孩子们应该多了解鹿。",
+    "level": "primary"
+  },
+  {
+    "word": "dolphin",
+    "meaning": "海豚",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of dolphin before?",
+    "example_zh": "你以前听说过海豚吗？",
+    "level": "primary"
+  },
+  {
+    "word": "whale",
+    "meaning": "鲸鱼",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of whale before?",
+    "example_zh": "你以前听说过鲸鱼吗？",
+    "level": "primary"
+  },
+  {
+    "word": "shark",
+    "meaning": "鲨鱼",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of shark before?",
+    "example_zh": "你以前听说过鲨鱼吗？",
+    "level": "primary"
+  },
+  {
+    "word": "eagle",
+    "meaning": "鹰",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about eagle in our last lesson.",
+    "example_zh": "我们上节课学了鹰。",
+    "level": "primary"
+  },
+  {
+    "word": "owl",
+    "meaning": "猫头鹰",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of owl.",
+    "example_zh": "这篇文章给出了一个关于猫头鹰的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "parrot",
+    "meaning": "鹦鹉",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Parrot is an important topic in this book.",
+    "example_zh": "鹦鹉是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "peacock",
+    "meaning": "孔雀",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We had a long discussion about peacock yesterday.",
+    "example_zh": "昨天我们就孔雀进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "goose",
+    "meaning": "鹅",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of goose.",
+    "example_zh": "这篇文章给出了一个关于鹅的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "swan",
+    "meaning": "天鹅",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned swan during class.",
+    "example_zh": "老师在课上提到了天鹅。",
+    "level": "primary"
+  },
+  {
+    "word": "crow",
+    "meaning": "乌鸦",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about crow in our last lesson.",
+    "example_zh": "我们上节课学了乌鸦。",
+    "level": "primary"
+  },
+  {
+    "word": "sparrow",
+    "meaning": "麻雀",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Sparrow is an important topic in this book.",
+    "example_zh": "麻雀是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "pigeon",
+    "meaning": "鸽子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned pigeon during class.",
+    "example_zh": "老师在课上提到了鸽子。",
+    "level": "primary"
+  },
+  {
+    "word": "swallow",
+    "meaning": "燕子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We had a long discussion about swallow yesterday.",
+    "example_zh": "昨天我们就燕子进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "leaf",
+    "meaning": "叶子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned leaf during class.",
+    "example_zh": "老师在课上提到了叶子。",
+    "level": "primary"
+  },
+  {
+    "word": "branch",
+    "meaning": "树枝",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of branch.",
+    "example_zh": "这篇文章给出了一个关于树枝的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "root",
+    "meaning": "根",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Many students are interested in root.",
+    "example_zh": "许多学生对根感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "seed",
+    "meaning": "种子",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Many students are interested in seed.",
+    "example_zh": "许多学生对种子感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "fruit",
+    "meaning": "水果",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of fruit.",
+    "example_zh": "这篇文章给出了一个关于水果的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "grass",
+    "meaning": "草",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Grass is an important topic in this book.",
+    "example_zh": "草是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "bush",
+    "meaning": "灌木",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of bush.",
+    "example_zh": "这篇文章给出了一个关于灌木的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "forest",
+    "meaning": "森林",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned forest during class.",
+    "example_zh": "老师在课上提到了森林。",
+    "level": "primary"
+  },
+  {
+    "word": "jungle",
+    "meaning": "丛林",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Children should know more about jungle.",
+    "example_zh": "孩子们应该多了解丛林。",
+    "level": "primary"
+  },
+  {
+    "word": "desert",
+    "meaning": "沙漠",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of desert.",
+    "example_zh": "这篇文章给出了一个关于沙漠的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "ocean",
+    "meaning": "海洋",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Ocean plays an important role in our daily life.",
+    "example_zh": "海洋在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "sea",
+    "meaning": "海",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned sea during class.",
+    "example_zh": "老师在课上提到了海。",
+    "level": "primary"
+  },
+  {
+    "word": "lake",
+    "meaning": "湖",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of lake.",
+    "example_zh": "这篇文章给出了一个关于湖的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "pond",
+    "meaning": "池塘",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about pond in our last lesson.",
+    "example_zh": "我们上节课学了池塘。",
+    "level": "primary"
+  },
+  {
+    "word": "beach",
+    "meaning": "海滩",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Many students are interested in beach.",
+    "example_zh": "许多学生对海滩感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "island",
+    "meaning": "岛",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We had a long discussion about island yesterday.",
+    "example_zh": "昨天我们就岛进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "hill",
+    "meaning": "小山",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned hill during class.",
+    "example_zh": "老师在课上提到了小山。",
+    "level": "primary"
+  },
+  {
+    "word": "valley",
+    "meaning": "山谷",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Valley plays an important role in our daily life.",
+    "example_zh": "山谷在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "hot",
+    "meaning": "热的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "This kind of design seems hot to most people.",
+    "example_zh": "这种设计在多数人看来是热。",
+    "level": "primary"
+  },
+  {
+    "word": "cold",
+    "meaning": "冷的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The result of the experiment was cold.",
+    "example_zh": "实验的结果冷。",
+    "level": "primary"
+  },
+  {
+    "word": "warm",
+    "meaning": "暖和的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "This kind of design seems warm to most people.",
+    "example_zh": "这种设计在多数人看来是暖和。",
+    "level": "primary"
+  },
+  {
+    "word": "cool",
+    "meaning": "凉爽的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Many people consider this idea cool.",
+    "example_zh": "很多人认为这个想法凉爽。",
+    "level": "primary"
+  },
+  {
+    "word": "sunny",
+    "meaning": "晴朗的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "He found the lecture very sunny.",
+    "example_zh": "他觉得这场讲座非常晴朗。",
+    "level": "primary"
+  },
+  {
+    "word": "cloudy",
+    "meaning": "多云的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The new project sounds quite cloudy to me.",
+    "example_zh": "这个新项目听起来相当多云。",
+    "level": "primary"
+  },
+  {
+    "word": "rainy",
+    "meaning": "多雨的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "This kind of design seems rainy to most people.",
+    "example_zh": "这种设计在多数人看来是多雨。",
+    "level": "primary"
+  },
+  {
+    "word": "snowy",
+    "meaning": "多雪的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "His handwriting is surprisingly snowy.",
+    "example_zh": "他的字迹出乎意料地多雪。",
+    "level": "primary"
+  },
+  {
+    "word": "windy",
+    "meaning": "有风的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The result of the experiment was windy.",
+    "example_zh": "实验的结果有风。",
+    "level": "primary"
+  },
+  {
+    "word": "foggy",
+    "meaning": "有雾的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "This kind of design seems foggy to most people.",
+    "example_zh": "这种设计在多数人看来是有雾。",
+    "level": "primary"
+  },
+  {
+    "word": "stormy",
+    "meaning": "暴风的",
+    "pos": "adj",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "This kind of design seems stormy to most people.",
+    "example_zh": "这种设计在多数人看来是暴风。",
+    "level": "primary"
+  },
+  {
+    "word": "ice",
+    "meaning": "冰",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Children should know more about ice.",
+    "example_zh": "孩子们应该多了解冰。",
+    "level": "primary"
+  },
+  {
+    "word": "fire",
+    "meaning": "火",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The teacher mentioned fire during class.",
+    "example_zh": "老师在课上提到了火。",
+    "level": "primary"
+  },
+  {
+    "word": "wind",
+    "meaning": "风",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of wind before?",
+    "example_zh": "你以前听说过风吗？",
+    "level": "primary"
+  },
+  {
+    "word": "cloud",
+    "meaning": "云",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about cloud in our last lesson.",
+    "example_zh": "我们上节课学了云。",
+    "level": "primary"
+  },
+  {
+    "word": "star",
+    "meaning": "星星",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about star in our last lesson.",
+    "example_zh": "我们上节课学了星星。",
+    "level": "primary"
+  },
+  {
+    "word": "sky",
+    "meaning": "天空",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Have you ever heard of sky before?",
+    "example_zh": "你以前听说过天空吗？",
+    "level": "primary"
+  },
+  {
+    "word": "ground",
+    "meaning": "地面",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "Ground plays an important role in our daily life.",
+    "example_zh": "地面在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "land",
+    "meaning": "土地",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "We learned about land in our last lesson.",
+    "example_zh": "我们上节课学了土地。",
+    "level": "primary"
+  },
+  {
+    "word": "field",
+    "meaning": "田野",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The article gave a clear example of field.",
+    "example_zh": "这篇文章给出了一个关于田野的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "pizza",
+    "meaning": "披萨",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We had a long discussion about pizza yesterday.",
+    "example_zh": "昨天我们就披萨进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "hamburger",
+    "meaning": "汉堡",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Hamburger is an important topic in this book.",
+    "example_zh": "汉堡是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "hotdog",
+    "meaning": "热狗",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Hotdog is an important topic in this book.",
+    "example_zh": "热狗是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "cheese",
+    "meaning": "奶酪",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Cheese is an important topic in this book.",
+    "example_zh": "奶酪是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "butter",
+    "meaning": "黄油",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about butter.",
+    "example_zh": "姐姐经常谈论黄油。",
+    "level": "primary"
+  },
+  {
+    "word": "jam",
+    "meaning": "果酱",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned jam during class.",
+    "example_zh": "老师在课上提到了果酱。",
+    "level": "primary"
+  },
+  {
+    "word": "honey",
+    "meaning": "蜂蜜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We had a long discussion about honey yesterday.",
+    "example_zh": "昨天我们就蜂蜜进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "sugar",
+    "meaning": "糖",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Sugar plays an important role in our daily life.",
+    "example_zh": "糖在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "salt",
+    "meaning": "盐",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of salt.",
+    "example_zh": "这篇文章给出了一个关于盐的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "pepper",
+    "meaning": "胡椒",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Pepper is an important topic in this book.",
+    "example_zh": "胡椒是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "sauce",
+    "meaning": "酱汁",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Sauce plays an important role in our daily life.",
+    "example_zh": "酱汁在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "soup",
+    "meaning": "汤",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of soup.",
+    "example_zh": "这篇文章给出了一个关于汤的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "salad",
+    "meaning": "沙拉",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about salad.",
+    "example_zh": "孩子们应该多了解沙拉。",
+    "level": "primary"
+  },
+  {
+    "word": "pasta",
+    "meaning": "意大利面",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of pasta.",
+    "example_zh": "这篇文章给出了一个关于意大利面的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "dumpling",
+    "meaning": "饺子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about dumpling in our last lesson.",
+    "example_zh": "我们上节课学了饺子。",
+    "level": "primary"
+  },
+  {
+    "word": "porridge",
+    "meaning": "粥",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about porridge in our last lesson.",
+    "example_zh": "我们上节课学了粥。",
+    "level": "primary"
+  },
+  {
+    "word": "cake",
+    "meaning": "蛋糕",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about cake.",
+    "example_zh": "孩子们应该多了解蛋糕。",
+    "level": "primary"
+  },
+  {
+    "word": "cookie",
+    "meaning": "曲奇",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Cookie plays an important role in our daily life.",
+    "example_zh": "曲奇在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "biscuit",
+    "meaning": "饼干",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of biscuit.",
+    "example_zh": "这篇文章给出了一个关于饼干的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "pie",
+    "meaning": "派",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of pie.",
+    "example_zh": "这篇文章给出了一个关于派的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "candy",
+    "meaning": "糖果",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned candy during class.",
+    "example_zh": "老师在课上提到了糖果。",
+    "level": "primary"
+  },
+  {
+    "word": "chocolate",
+    "meaning": "巧克力",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Chocolate plays an important role in our daily life.",
+    "example_zh": "巧克力在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "icecream",
+    "meaning": "冰淇淋",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many students are interested in icecream.",
+    "example_zh": "许多学生对冰淇淋感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "popcorn",
+    "meaning": "爆米花",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of popcorn.",
+    "example_zh": "这篇文章给出了一个关于爆米花的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "donut",
+    "meaning": "甜甜圈",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Have you ever heard of donut before?",
+    "example_zh": "你以前听说过甜甜圈吗？",
+    "level": "primary"
+  },
+  {
+    "word": "cupcake",
+    "meaning": "纸杯蛋糕",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about cupcake in our last lesson.",
+    "example_zh": "我们上节课学了纸杯蛋糕。",
+    "level": "primary"
+  },
+  {
+    "word": "grape",
+    "meaning": "葡萄",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about grape.",
+    "example_zh": "姐姐经常谈论葡萄。",
+    "level": "primary"
+  },
+  {
+    "word": "strawberry",
+    "meaning": "草莓",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We had a long discussion about strawberry yesterday.",
+    "example_zh": "昨天我们就草莓进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "watermelon",
+    "meaning": "西瓜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about watermelon in our last lesson.",
+    "example_zh": "我们上节课学了西瓜。",
+    "level": "primary"
+  },
+  {
+    "word": "peach",
+    "meaning": "桃",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about peach.",
+    "example_zh": "孩子们应该多了解桃。",
+    "level": "primary"
+  },
+  {
+    "word": "pear",
+    "meaning": "梨",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about pear.",
+    "example_zh": "孩子们应该多了解梨。",
+    "level": "primary"
+  },
+  {
+    "word": "plum",
+    "meaning": "李子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Have you ever heard of plum before?",
+    "example_zh": "你以前听说过李子吗？",
+    "level": "primary"
+  },
+  {
+    "word": "mango",
+    "meaning": "芒果",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Mango plays an important role in our daily life.",
+    "example_zh": "芒果在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "pineapple",
+    "meaning": "菠萝",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many students are interested in pineapple.",
+    "example_zh": "许多学生对菠萝感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "kiwi",
+    "meaning": "猕猴桃",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of kiwi.",
+    "example_zh": "这篇文章给出了一个关于猕猴桃的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "cherry",
+    "meaning": "樱桃",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many students are interested in cherry.",
+    "example_zh": "许多学生对樱桃感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "lemon",
+    "meaning": "柠檬",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Have you ever heard of lemon before?",
+    "example_zh": "你以前听说过柠檬吗？",
+    "level": "primary"
+  },
+  {
+    "word": "coconut",
+    "meaning": "椰子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about coconut in our last lesson.",
+    "example_zh": "我们上节课学了椰子。",
+    "level": "primary"
+  },
+  {
+    "word": "tomato",
+    "meaning": "番茄",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of tomato.",
+    "example_zh": "这篇文章给出了一个关于番茄的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "potato",
+    "meaning": "土豆",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about potato in our last lesson.",
+    "example_zh": "我们上节课学了土豆。",
+    "level": "primary"
+  },
+  {
+    "word": "carrot",
+    "meaning": "胡萝卜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about carrot.",
+    "example_zh": "姐姐经常谈论胡萝卜。",
+    "level": "primary"
+  },
+  {
+    "word": "onion",
+    "meaning": "洋葱",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about onion.",
+    "example_zh": "姐姐经常谈论洋葱。",
+    "level": "primary"
+  },
+  {
+    "word": "garlic",
+    "meaning": "大蒜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Garlic is an important topic in this book.",
+    "example_zh": "大蒜是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "cucumber",
+    "meaning": "黄瓜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about cucumber.",
+    "example_zh": "姐姐经常谈论黄瓜。",
+    "level": "primary"
+  },
+  {
+    "word": "lettuce",
+    "meaning": "生菜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about lettuce.",
+    "example_zh": "姐姐经常谈论生菜。",
+    "level": "primary"
+  },
+  {
+    "word": "cabbage",
+    "meaning": "卷心菜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned cabbage during class.",
+    "example_zh": "老师在课上提到了卷心菜。",
+    "level": "primary"
+  },
+  {
+    "word": "mushroom",
+    "meaning": "蘑菇",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about mushroom.",
+    "example_zh": "孩子们应该多了解蘑菇。",
+    "level": "primary"
+  },
+  {
+    "word": "pumpkin",
+    "meaning": "南瓜",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned pumpkin during class.",
+    "example_zh": "老师在课上提到了南瓜。",
+    "level": "primary"
+  },
+  {
+    "word": "corn",
+    "meaning": "玉米",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about corn in our last lesson.",
+    "example_zh": "我们上节课学了玉米。",
+    "level": "primary"
+  },
+  {
+    "word": "bean",
+    "meaning": "豆",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Bean plays an important role in our daily life.",
+    "example_zh": "豆在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "beef",
+    "meaning": "牛肉",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Have you ever heard of beef before?",
+    "example_zh": "你以前听说过牛肉吗？",
+    "level": "primary"
+  },
+  {
+    "word": "pork",
+    "meaning": "猪肉",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many students are interested in pork.",
+    "example_zh": "许多学生对猪肉感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "shrimp",
+    "meaning": "虾",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many students are interested in shrimp.",
+    "example_zh": "许多学生对虾感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "crab",
+    "meaning": "螃蟹",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of crab.",
+    "example_zh": "这篇文章给出了一个关于螃蟹的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "fork",
+    "meaning": "叉子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned fork during class.",
+    "example_zh": "老师在课上提到了叉子。",
+    "level": "primary"
+  },
+  {
+    "word": "spoon",
+    "meaning": "勺子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about spoon in our last lesson.",
+    "example_zh": "我们上节课学了勺子。",
+    "level": "primary"
+  },
+  {
+    "word": "knife",
+    "meaning": "刀",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned knife during class.",
+    "example_zh": "老师在课上提到了刀。",
+    "level": "primary"
+  },
+  {
+    "word": "chopstick",
+    "meaning": "筷子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Chopstick plays an important role in our daily life.",
+    "example_zh": "筷子在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "plate",
+    "meaning": "盘子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Plate is an important topic in this book.",
+    "example_zh": "盘子是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "bowl",
+    "meaning": "碗",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned bowl during class.",
+    "example_zh": "老师在课上提到了碗。",
+    "level": "primary"
+  },
+  {
+    "word": "cup",
+    "meaning": "杯子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned cup during class.",
+    "example_zh": "老师在课上提到了杯子。",
+    "level": "primary"
+  },
+  {
+    "word": "glass",
+    "meaning": "玻璃杯",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Glass is an important topic in this book.",
+    "example_zh": "玻璃杯是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "mug",
+    "meaning": "马克杯",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about mug.",
+    "example_zh": "孩子们应该多了解马克杯。",
+    "level": "primary"
+  },
+  {
+    "word": "bottle",
+    "meaning": "瓶子",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Bottle is an important topic in this book.",
+    "example_zh": "瓶子是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "kettle",
+    "meaning": "水壶",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The article gave a clear example of kettle.",
+    "example_zh": "这篇文章给出了一个关于水壶的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "pan",
+    "meaning": "平底锅",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "My sister often talks about pan.",
+    "example_zh": "姐姐经常谈论平底锅。",
+    "level": "primary"
+  },
+  {
+    "word": "pot",
+    "meaning": "锅",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Children should know more about pot.",
+    "example_zh": "孩子们应该多了解锅。",
+    "level": "primary"
+  },
+  {
+    "word": "oven",
+    "meaning": "烤箱",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "We learned about oven in our last lesson.",
+    "example_zh": "我们上节课学了烤箱。",
+    "level": "primary"
+  },
+  {
+    "word": "fridge",
+    "meaning": "冰箱",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "The teacher mentioned fridge during class.",
+    "example_zh": "老师在课上提到了冰箱。",
+    "level": "primary"
+  },
+  {
+    "word": "sweet",
+    "meaning": "甜的",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "She made a sweet decision in the end.",
+    "example_zh": "最后她做出了一个甜决定。",
+    "level": "primary"
+  },
+  {
+    "word": "salty",
+    "meaning": "咸的",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather salty.",
+    "example_zh": "她对这件事的看法相当咸。",
+    "level": "primary"
+  },
+  {
+    "word": "sour",
+    "meaning": "酸的",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather sour.",
+    "example_zh": "她对这件事的看法相当酸。",
+    "level": "primary"
+  },
+  {
+    "word": "bitter",
+    "meaning": "苦的",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "This kind of design seems bitter to most people.",
+    "example_zh": "这种设计在多数人看来是苦。",
+    "level": "primary"
+  },
+  {
+    "word": "spicy",
+    "meaning": "辣的",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many people consider this idea spicy.",
+    "example_zh": "很多人认为这个想法辣。",
+    "level": "primary"
+  },
+  {
+    "word": "fresh",
+    "meaning": "新鲜的",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Many people consider this idea fresh.",
+    "example_zh": "很多人认为这个想法新鲜。",
+    "level": "primary"
+  },
+  {
+    "word": "parents",
+    "meaning": "父母",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about parents.",
+    "example_zh": "孩子们应该多了解父母。",
+    "level": "primary"
+  },
+  {
+    "word": "son",
+    "meaning": "儿子",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We learned about son in our last lesson.",
+    "example_zh": "我们上节课学了儿子。",
+    "level": "primary"
+  },
+  {
+    "word": "daughter",
+    "meaning": "女儿",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of daughter before?",
+    "example_zh": "你以前听说过女儿吗？",
+    "level": "primary"
+  },
+  {
+    "word": "baby",
+    "meaning": "婴儿",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about baby.",
+    "example_zh": "姐姐经常谈论婴儿。",
+    "level": "primary"
+  },
+  {
+    "word": "child",
+    "meaning": "孩子",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned child during class.",
+    "example_zh": "老师在课上提到了孩子。",
+    "level": "primary"
+  },
+  {
+    "word": "kid",
+    "meaning": "小孩",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We had a long discussion about kid yesterday.",
+    "example_zh": "昨天我们就小孩进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "twin",
+    "meaning": "双胞胎",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Many students are interested in twin.",
+    "example_zh": "许多学生对双胞胎感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "husband",
+    "meaning": "丈夫",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Husband plays an important role in our daily life.",
+    "example_zh": "丈夫在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "wife",
+    "meaning": "妻子",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about wife.",
+    "example_zh": "孩子们应该多了解妻子。",
+    "level": "primary"
+  },
+  {
+    "word": "family",
+    "meaning": "家",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We had a long discussion about family yesterday.",
+    "example_zh": "昨天我们就家进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "granddad",
+    "meaning": "爷爷",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We learned about granddad in our last lesson.",
+    "example_zh": "我们上节课学了爷爷。",
+    "level": "primary"
+  },
+  {
+    "word": "grandpa",
+    "meaning": "爷爷",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of grandpa before?",
+    "example_zh": "你以前听说过爷爷吗？",
+    "level": "primary"
+  },
+  {
+    "word": "grandma",
+    "meaning": "奶奶",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about grandma.",
+    "example_zh": "孩子们应该多了解奶奶。",
+    "level": "primary"
+  },
+  {
+    "word": "granny",
+    "meaning": "奶奶",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We had a long discussion about granny yesterday.",
+    "example_zh": "昨天我们就奶奶进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "nephew",
+    "meaning": "侄子",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about nephew.",
+    "example_zh": "孩子们应该多了解侄子。",
+    "level": "primary"
+  },
+  {
+    "word": "niece",
+    "meaning": "侄女",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about niece.",
+    "example_zh": "孩子们应该多了解侄女。",
+    "level": "primary"
+  },
+  {
+    "word": "neighbor",
+    "meaning": "邻居",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about neighbor.",
+    "example_zh": "孩子们应该多了解邻居。",
+    "level": "primary"
+  },
+  {
+    "word": "person",
+    "meaning": "人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We had a long discussion about person yesterday.",
+    "example_zh": "昨天我们就人进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "people",
+    "meaning": "人们",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about people.",
+    "example_zh": "姐姐经常谈论人们。",
+    "level": "primary"
+  },
+  {
+    "word": "man",
+    "meaning": "男人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Man is an important topic in this book.",
+    "example_zh": "男人是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "woman",
+    "meaning": "女人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Woman plays an important role in our daily life.",
+    "example_zh": "女人在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "doctor",
+    "meaning": "医生",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned doctor during class.",
+    "example_zh": "老师在课上提到了医生。",
+    "level": "primary"
+  },
+  {
+    "word": "nurse",
+    "meaning": "护士",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about nurse.",
+    "example_zh": "孩子们应该多了解护士。",
+    "level": "primary"
+  },
+  {
+    "word": "farmer",
+    "meaning": "农民",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about farmer.",
+    "example_zh": "孩子们应该多了解农民。",
+    "level": "primary"
+  },
+  {
+    "word": "worker",
+    "meaning": "工人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The article gave a clear example of worker.",
+    "example_zh": "这篇文章给出了一个关于工人的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "driver",
+    "meaning": "司机",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about driver.",
+    "example_zh": "孩子们应该多了解司机。",
+    "level": "primary"
+  },
+  {
+    "word": "cook",
+    "meaning": "厨师",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about cook.",
+    "example_zh": "姐姐经常谈论厨师。",
+    "level": "primary"
+  },
+  {
+    "word": "waiter",
+    "meaning": "服务员",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned waiter during class.",
+    "example_zh": "老师在课上提到了服务员。",
+    "level": "primary"
+  },
+  {
+    "word": "soldier",
+    "meaning": "士兵",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of soldier before?",
+    "example_zh": "你以前听说过士兵吗？",
+    "level": "primary"
+  },
+  {
+    "word": "police",
+    "meaning": "警察",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about police.",
+    "example_zh": "孩子们应该多了解警察。",
+    "level": "primary"
+  },
+  {
+    "word": "postman",
+    "meaning": "邮递员",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about postman.",
+    "example_zh": "姐姐经常谈论邮递员。",
+    "level": "primary"
+  },
+  {
+    "word": "dentist",
+    "meaning": "牙医",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The article gave a clear example of dentist.",
+    "example_zh": "这篇文章给出了一个关于牙医的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "painter",
+    "meaning": "画家",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about painter.",
+    "example_zh": "孩子们应该多了解画家。",
+    "level": "primary"
+  },
+  {
+    "word": "singer",
+    "meaning": "歌手",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned singer during class.",
+    "example_zh": "老师在课上提到了歌手。",
+    "level": "primary"
+  },
+  {
+    "word": "dancer",
+    "meaning": "舞者",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Many students are interested in dancer.",
+    "example_zh": "许多学生对舞者感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "actor",
+    "meaning": "演员",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about actor.",
+    "example_zh": "姐姐经常谈论演员。",
+    "level": "primary"
+  },
+  {
+    "word": "writer",
+    "meaning": "作家",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about writer.",
+    "example_zh": "孩子们应该多了解作家。",
+    "level": "primary"
+  },
+  {
+    "word": "reader",
+    "meaning": "读者",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about reader.",
+    "example_zh": "姐姐经常谈论读者。",
+    "level": "primary"
+  },
+  {
+    "word": "player",
+    "meaning": "选手",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Player plays an important role in our daily life.",
+    "example_zh": "选手在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "helper",
+    "meaning": "帮手",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned helper during class.",
+    "example_zh": "老师在课上提到了帮手。",
+    "level": "primary"
+  },
+  {
+    "word": "partner",
+    "meaning": "伙伴",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The article gave a clear example of partner.",
+    "example_zh": "这篇文章给出了一个关于伙伴的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "mate",
+    "meaning": "伙伴",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Mate is an important topic in this book.",
+    "example_zh": "伙伴是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "buddy",
+    "meaning": "兄弟",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Buddy plays an important role in our daily life.",
+    "example_zh": "兄弟在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "schoolmate",
+    "meaning": "同校同学",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned schoolmate during class.",
+    "example_zh": "老师在课上提到了同校同学。",
+    "level": "primary"
+  },
+  {
+    "word": "teammate",
+    "meaning": "队友",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Many students are interested in teammate.",
+    "example_zh": "许多学生对队友感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "hero",
+    "meaning": "英雄",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The teacher mentioned hero during class.",
+    "example_zh": "老师在课上提到了英雄。",
+    "level": "primary"
+  },
+  {
+    "word": "lady",
+    "meaning": "女士",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We learned about lady in our last lesson.",
+    "example_zh": "我们上节课学了女士。",
+    "level": "primary"
+  },
+  {
+    "word": "mister",
+    "meaning": "先生",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of mister before?",
+    "example_zh": "你以前听说过先生吗？",
+    "level": "primary"
+  },
+  {
+    "word": "gentleman",
+    "meaning": "绅士",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of gentleman before?",
+    "example_zh": "你以前听说过绅士吗？",
+    "level": "primary"
+  },
+  {
+    "word": "king",
+    "meaning": "国王",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "King plays an important role in our daily life.",
+    "example_zh": "国王在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "queen",
+    "meaning": "王后",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Queen is an important topic in this book.",
+    "example_zh": "王后是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "prince",
+    "meaning": "王子",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The article gave a clear example of prince.",
+    "example_zh": "这篇文章给出了一个关于王子的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "princess",
+    "meaning": "公主",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about princess.",
+    "example_zh": "孩子们应该多了解公主。",
+    "level": "primary"
+  },
+  {
+    "word": "captain",
+    "meaning": "队长",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Captain plays an important role in our daily life.",
+    "example_zh": "队长在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "judge",
+    "meaning": "法官",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Judge plays an important role in our daily life.",
+    "example_zh": "法官在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "lawyer",
+    "meaning": "律师",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about lawyer.",
+    "example_zh": "孩子们应该多了解律师。",
+    "level": "primary"
+  },
+  {
+    "word": "scientist",
+    "meaning": "科学家",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of scientist before?",
+    "example_zh": "你以前听说过科学家吗？",
+    "level": "primary"
+  },
+  {
+    "word": "engineer",
+    "meaning": "工程师",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Children should know more about engineer.",
+    "example_zh": "孩子们应该多了解工程师。",
+    "level": "primary"
+  },
+  {
+    "word": "manager",
+    "meaning": "经理",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Manager plays an important role in our daily life.",
+    "example_zh": "经理在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "boss",
+    "meaning": "老板",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Boss is an important topic in this book.",
+    "example_zh": "老板是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "employee",
+    "meaning": "员工",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Many students are interested in employee.",
+    "example_zh": "许多学生对员工感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "customer",
+    "meaning": "顾客",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about customer.",
+    "example_zh": "姐姐经常谈论顾客。",
+    "level": "primary"
+  },
+  {
+    "word": "guest",
+    "meaning": "客人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about guest.",
+    "example_zh": "姐姐经常谈论客人。",
+    "level": "primary"
+  },
+  {
+    "word": "visitor",
+    "meaning": "访客",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The article gave a clear example of visitor.",
+    "example_zh": "这篇文章给出了一个关于访客的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "stranger",
+    "meaning": "陌生人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We learned about stranger in our last lesson.",
+    "example_zh": "我们上节课学了陌生人。",
+    "level": "primary"
+  },
+  {
+    "word": "foreigner",
+    "meaning": "外国人",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My sister often talks about foreigner.",
+    "example_zh": "姐姐经常谈论外国人。",
+    "level": "primary"
+  },
+  {
+    "word": "citizen",
+    "meaning": "公民",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Have you ever heard of citizen before?",
+    "example_zh": "你以前听说过公民吗？",
+    "level": "primary"
+  },
+  {
+    "word": "boyfriend",
+    "meaning": "男朋友",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Many students are interested in boyfriend.",
+    "example_zh": "许多学生对男朋友感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "girlfriend",
+    "meaning": "女朋友",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "Girlfriend is an important topic in this book.",
+    "example_zh": "女朋友是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "roommate",
+    "meaning": "室友",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "We learned about roommate in our last lesson.",
+    "example_zh": "我们上节课学了室友。",
+    "level": "primary"
+  },
+  {
+    "word": "four",
+    "meaning": "四",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "There are four seasons in a year.",
+    "example_zh": "一年有四个季节。",
+    "level": "primary"
+  },
+  {
+    "word": "five",
+    "meaning": "五",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "School starts at five minutes past eight.",
+    "example_zh": "学校八点零五开始上课。",
+    "level": "primary"
+  },
+  {
+    "word": "six",
+    "meaning": "六",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My little brother is six years old.",
+    "example_zh": "我弟弟六岁了。",
+    "level": "primary"
+  },
+  {
+    "word": "seven",
+    "meaning": "七",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "There are seven days in a week.",
+    "example_zh": "一周有七天。",
+    "level": "primary"
+  },
+  {
+    "word": "eight",
+    "meaning": "八",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "I usually go to bed at eight o'clock.",
+    "example_zh": "我通常八点上床睡觉。",
+    "level": "primary"
+  },
+  {
+    "word": "nine",
+    "meaning": "九",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Nine students stayed after class to ask questions.",
+    "example_zh": "课后有九个学生留下来提问。",
+    "level": "primary"
+  },
+  {
+    "word": "eleven",
+    "meaning": "十一",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My uncle has eleven sheep on his farm.",
+    "example_zh": "叔叔的农场里养了十一只羊。",
+    "level": "primary"
+  },
+  {
+    "word": "thirteen",
+    "meaning": "十三",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My cousin will be thirteen years old next month.",
+    "example_zh": "下个月我堂兄就十三岁了。",
+    "level": "primary"
+  },
+  {
+    "word": "fourteen",
+    "meaning": "十四",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "There are fourteen new words in this lesson.",
+    "example_zh": "这课有十四个生词。",
+    "level": "primary"
+  },
+  {
+    "word": "fifteen",
+    "meaning": "十五",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The bus will leave in fifteen minutes.",
+    "example_zh": "公共汽车还有十五分钟就走了。",
+    "level": "primary"
+  },
+  {
+    "word": "sixteen",
+    "meaning": "十六",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "You can drive a car at sixteen in some countries.",
+    "example_zh": "在一些国家十六岁就可以开车。",
+    "level": "primary"
+  },
+  {
+    "word": "seventeen",
+    "meaning": "十七",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My sister is seventeen and in high school.",
+    "example_zh": "姐姐十七岁了，读高中。",
+    "level": "primary"
+  },
+  {
+    "word": "eighteen",
+    "meaning": "十八",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "He turned eighteen last Sunday.",
+    "example_zh": "上星期天他满十八岁了。",
+    "level": "primary"
+  },
+  {
+    "word": "nineteen",
+    "meaning": "十九",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "There are nineteen pupils in our music club.",
+    "example_zh": "我们音乐社有十九名同学。",
+    "level": "primary"
+  },
+  {
+    "word": "thirty",
+    "meaning": "三十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The class lasts about thirty minutes.",
+    "example_zh": "这节课大约持续三十分钟。",
+    "level": "primary"
+  },
+  {
+    "word": "forty",
+    "meaning": "四十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My father is forty years old this year.",
+    "example_zh": "我爸爸今年四十岁。",
+    "level": "primary"
+  },
+  {
+    "word": "fifty",
+    "meaning": "五十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Our school has more than fifty teachers.",
+    "example_zh": "我们学校有五十多名老师。",
+    "level": "primary"
+  },
+  {
+    "word": "sixty",
+    "meaning": "六十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "There are sixty seats in this small theater.",
+    "example_zh": "这个小剧场有六十个座位。",
+    "level": "primary"
+  },
+  {
+    "word": "seventy",
+    "meaning": "七十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My grandfather is already seventy.",
+    "example_zh": "我爷爷已经七十岁了。",
+    "level": "primary"
+  },
+  {
+    "word": "eighty",
+    "meaning": "八十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The library has more than eighty new books.",
+    "example_zh": "图书馆新增了八十多本书。",
+    "level": "primary"
+  },
+  {
+    "word": "ninety",
+    "meaning": "九十",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "She lived to be ninety years old.",
+    "example_zh": "她活到了九十岁。",
+    "level": "primary"
+  },
+  {
+    "word": "thousand",
+    "meaning": "千",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "This city has a population of one thousand people.",
+    "example_zh": "这座城市有一千人口。",
+    "level": "primary"
+  },
+  {
+    "word": "million",
+    "meaning": "百万",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "This bridge cost over five million yuan to build.",
+    "example_zh": "这座桥花了五百多万元才建成。",
+    "level": "primary"
+  },
+  {
+    "word": "first",
+    "meaning": "第一",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "This is the first time I have visited Beijing.",
+    "example_zh": "这是我第一次来北京。",
+    "level": "primary"
+  },
+  {
+    "word": "second",
+    "meaning": "第二",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "He came in second place in the running race.",
+    "example_zh": "他在跑步比赛中获得了第二名。",
+    "level": "primary"
+  },
+  {
+    "word": "third",
+    "meaning": "第三",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My desk is the third one from the door.",
+    "example_zh": "我的桌子是从门口数第三张。",
+    "level": "primary"
+  },
+  {
+    "word": "fourth",
+    "meaning": "第四",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Today is the fourth day of our trip.",
+    "example_zh": "今天是我们旅行的第四天。",
+    "level": "primary"
+  },
+  {
+    "word": "fifth",
+    "meaning": "第五",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "She lives on the fifth floor of the building.",
+    "example_zh": "她住在这栋楼的五楼。",
+    "level": "primary"
+  },
+  {
+    "word": "half",
+    "meaning": "一半",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The teacher mentioned half during class.",
+    "example_zh": "老师在课上提到了一半。",
+    "level": "primary"
+  },
+  {
+    "word": "quarter",
+    "meaning": "四分之一",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We had a long discussion about quarter yesterday.",
+    "example_zh": "昨天我们就四分之一进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "hour",
+    "meaning": "小时",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My sister often talks about hour.",
+    "example_zh": "姐姐经常谈论小时。",
+    "level": "primary"
+  },
+  {
+    "word": "minute",
+    "meaning": "分钟",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We learned about minute in our last lesson.",
+    "example_zh": "我们上节课学了分钟。",
+    "level": "primary"
+  },
+  {
+    "word": "yesterday",
+    "meaning": "昨天",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Yesterday I went to the library after school.",
+    "example_zh": "昨天放学后我去了图书馆。",
+    "level": "primary"
+  },
+  {
+    "word": "midnight",
+    "meaning": "午夜",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Midnight is an important topic in this book.",
+    "example_zh": "午夜是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "noon",
+    "meaning": "中午",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Noon plays an important role in our daily life.",
+    "example_zh": "中午在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "night",
+    "meaning": "夜晚",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The article gave a clear example of night.",
+    "example_zh": "这篇文章给出了一个关于夜晚的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "dawn",
+    "meaning": "黎明",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We learned about dawn in our last lesson.",
+    "example_zh": "我们上节课学了黎明。",
+    "level": "primary"
+  },
+  {
+    "word": "sunrise",
+    "meaning": "日出",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Have you ever heard of sunrise before?",
+    "example_zh": "你以前听说过日出吗？",
+    "level": "primary"
+  },
+  {
+    "word": "sunset",
+    "meaning": "日落",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Sunset plays an important role in our daily life.",
+    "example_zh": "日落在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "Tuesday",
+    "meaning": "星期二",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We learned about Tuesday in our last lesson.",
+    "example_zh": "我们上节课学了星期二。",
+    "level": "primary"
+  },
+  {
+    "word": "Wednesday",
+    "meaning": "星期三",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My sister often talks about Wednesday.",
+    "example_zh": "姐姐经常谈论星期三。",
+    "level": "primary"
+  },
+  {
+    "word": "Thursday",
+    "meaning": "星期四",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My sister often talks about Thursday.",
+    "example_zh": "姐姐经常谈论星期四。",
+    "level": "primary"
+  },
+  {
+    "word": "Friday",
+    "meaning": "星期五",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The teacher mentioned Friday during class.",
+    "example_zh": "老师在课上提到了星期五。",
+    "level": "primary"
+  },
+  {
+    "word": "Saturday",
+    "meaning": "星期六",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The teacher mentioned Saturday during class.",
+    "example_zh": "老师在课上提到了星期六。",
+    "level": "primary"
+  },
+  {
+    "word": "weekday",
+    "meaning": "工作日",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The teacher mentioned weekday during class.",
+    "example_zh": "老师在课上提到了工作日。",
+    "level": "primary"
+  },
+  {
+    "word": "weekend",
+    "meaning": "周末",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Weekend is an important topic in this book.",
+    "example_zh": "周末是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "February",
+    "meaning": "二月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The article gave a clear example of February.",
+    "example_zh": "这篇文章给出了一个关于二月的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "March",
+    "meaning": "三月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Many students are interested in March.",
+    "example_zh": "许多学生对三月感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "April",
+    "meaning": "四月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Have you ever heard of April before?",
+    "example_zh": "你以前听说过四月吗？",
+    "level": "primary"
+  },
+  {
+    "word": "June",
+    "meaning": "六月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My sister often talks about June.",
+    "example_zh": "姐姐经常谈论六月。",
+    "level": "primary"
+  },
+  {
+    "word": "July",
+    "meaning": "七月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Have you ever heard of July before?",
+    "example_zh": "你以前听说过七月吗？",
+    "level": "primary"
+  },
+  {
+    "word": "August",
+    "meaning": "八月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The article gave a clear example of August.",
+    "example_zh": "这篇文章给出了一个关于八月的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "September",
+    "meaning": "九月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The teacher mentioned September during class.",
+    "example_zh": "老师在课上提到了九月。",
+    "level": "primary"
+  },
+  {
+    "word": "October",
+    "meaning": "十月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "October is an important topic in this book.",
+    "example_zh": "十月是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "November",
+    "meaning": "十一月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We had a long discussion about November yesterday.",
+    "example_zh": "昨天我们就十一月进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "December",
+    "meaning": "十二月",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We had a long discussion about December yesterday.",
+    "example_zh": "昨天我们就十二月进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "spring",
+    "meaning": "春天",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Have you ever heard of spring before?",
+    "example_zh": "你以前听说过春天吗？",
+    "level": "primary"
+  },
+  {
+    "word": "summer",
+    "meaning": "夏天",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Summer is an important topic in this book.",
+    "example_zh": "夏天是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "autumn",
+    "meaning": "秋天",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We learned about autumn in our last lesson.",
+    "example_zh": "我们上节课学了秋天。",
+    "level": "primary"
+  },
+  {
+    "word": "fall",
+    "meaning": "秋天",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Fall is an important topic in this book.",
+    "example_zh": "秋天是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "winter",
+    "meaning": "冬天",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My sister often talks about winter.",
+    "example_zh": "姐姐经常谈论冬天。",
+    "level": "primary"
+  },
+  {
+    "word": "season",
+    "meaning": "季节",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "We learned about season in our last lesson.",
+    "example_zh": "我们上节课学了季节。",
+    "level": "primary"
+  },
+  {
+    "word": "festival",
+    "meaning": "节日",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Festival is an important topic in this book.",
+    "example_zh": "节日是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "date",
+    "meaning": "日期",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Date plays an important role in our daily life.",
+    "example_zh": "日期在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "calendar",
+    "meaning": "日历",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The teacher mentioned calendar during class.",
+    "example_zh": "老师在课上提到了日历。",
+    "level": "primary"
+  },
+  {
+    "word": "o'clock",
+    "meaning": "点钟",
+    "pos": "adv",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "He answered o'clock.",
+    "example_zh": "他点钟地回答。",
+    "level": "primary"
+  },
+  {
+    "word": "zero",
+    "meaning": "零",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "The temperature dropped below zero last night.",
+    "example_zh": "昨夜温度降到了零以下。",
+    "level": "primary"
+  },
+  {
+    "word": "gray",
+    "meaning": "灰色",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "This kind of design seems gray to most people.",
+    "example_zh": "这种设计在多数人看来是灰色。",
+    "level": "primary"
+  },
+  {
+    "word": "grey",
+    "meaning": "灰色",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "He found the lecture very grey.",
+    "example_zh": "他觉得这场讲座非常灰色。",
+    "level": "primary"
+  },
+  {
+    "word": "gold",
+    "meaning": "金色",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Many people consider this idea gold.",
+    "example_zh": "很多人认为这个想法金色。",
+    "level": "primary"
+  },
+  {
+    "word": "silver",
+    "meaning": "银色",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The new project sounds quite silver to me.",
+    "example_zh": "这个新项目听起来相当银色。",
+    "level": "primary"
+  },
+  {
+    "word": "navy",
+    "meaning": "海军蓝",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Many people consider this idea navy.",
+    "example_zh": "很多人认为这个想法海军蓝。",
+    "level": "primary"
+  },
+  {
+    "word": "dark",
+    "meaning": "深色的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "This kind of design seems dark to most people.",
+    "example_zh": "这种设计在多数人看来是深色。",
+    "level": "primary"
+  },
+  {
+    "word": "light",
+    "meaning": "浅色的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "This kind of design seems light to most people.",
+    "example_zh": "这种设计在多数人看来是浅色。",
+    "level": "primary"
+  },
+  {
+    "word": "bright",
+    "meaning": "明亮的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather bright.",
+    "example_zh": "她对这件事的看法相当明亮。",
+    "level": "primary"
+  },
+  {
+    "word": "pale",
+    "meaning": "苍白的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "It will be a pale day for the whole class.",
+    "example_zh": "对全班来说这会是苍白的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "deep",
+    "meaning": "深的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "He found the lecture very deep.",
+    "example_zh": "他觉得这场讲座非常深。",
+    "level": "primary"
+  },
+  {
+    "word": "dot",
+    "meaning": "点",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Dot plays an important role in our daily life.",
+    "example_zh": "点在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "point",
+    "meaning": "点",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We had a long discussion about point yesterday.",
+    "example_zh": "昨天我们就点进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "curve",
+    "meaning": "曲线",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The teacher mentioned curve during class.",
+    "example_zh": "老师在课上提到了曲线。",
+    "level": "primary"
+  },
+  {
+    "word": "angle",
+    "meaning": "角",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Angle is an important topic in this book.",
+    "example_zh": "角是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "edge",
+    "meaning": "边",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We had a long discussion about edge yesterday.",
+    "example_zh": "昨天我们就边进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "corner",
+    "meaning": "角落",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Corner is an important topic in this book.",
+    "example_zh": "角落是这本书里的重要话题。",
+    "level": "primary"
+  },
+  {
+    "word": "side",
+    "meaning": "边",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "My sister often talks about side.",
+    "example_zh": "姐姐经常谈论边。",
+    "level": "primary"
+  },
+  {
+    "word": "surface",
+    "meaning": "表面",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The article gave a clear example of surface.",
+    "example_zh": "这篇文章给出了一个关于表面的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "wide",
+    "meaning": "宽的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The result of the experiment was wide.",
+    "example_zh": "实验的结果宽。",
+    "level": "primary"
+  },
+  {
+    "word": "narrow",
+    "meaning": "窄的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "His handwriting is surprisingly narrow.",
+    "example_zh": "他的字迹出乎意料地窄。",
+    "level": "primary"
+  },
+  {
+    "word": "thick",
+    "meaning": "厚的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The new project sounds quite thick to me.",
+    "example_zh": "这个新项目听起来相当厚。",
+    "level": "primary"
+  },
+  {
+    "word": "thin",
+    "meaning": "薄的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "To us, the question seemed thin at first.",
+    "example_zh": "这个问题在我们看来一开始薄。",
+    "level": "primary"
+  },
+  {
+    "word": "big",
+    "meaning": "大的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The result of the experiment was big.",
+    "example_zh": "实验的结果大。",
+    "level": "primary"
+  },
+  {
+    "word": "small",
+    "meaning": "小的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "To us, the question seemed small at first.",
+    "example_zh": "这个问题在我们看来一开始小。",
+    "level": "primary"
+  },
+  {
+    "word": "large",
+    "meaning": "大的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "It will be a large day for the whole class.",
+    "example_zh": "对全班来说这会是大的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "tiny",
+    "meaning": "微小的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "He found the lecture very tiny.",
+    "example_zh": "他觉得这场讲座非常微小。",
+    "level": "primary"
+  },
+  {
+    "word": "huge",
+    "meaning": "巨大的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The result of the experiment was huge.",
+    "example_zh": "实验的结果巨大。",
+    "level": "primary"
+  },
+  {
+    "word": "giant",
+    "meaning": "巨大的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "To us, the question seemed giant at first.",
+    "example_zh": "这个问题在我们看来一开始巨大。",
+    "level": "primary"
+  },
+  {
+    "word": "tall",
+    "meaning": "高的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "She made a tall decision in the end.",
+    "example_zh": "最后她做出了一个高决定。",
+    "level": "primary"
+  },
+  {
+    "word": "short",
+    "meaning": "矮的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "His handwriting is surprisingly short.",
+    "example_zh": "他的字迹出乎意料地矮。",
+    "level": "primary"
+  },
+  {
+    "word": "long",
+    "meaning": "长的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "She made a long decision in the end.",
+    "example_zh": "最后她做出了一个长决定。",
+    "level": "primary"
+  },
+  {
+    "word": "shallow",
+    "meaning": "浅的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The new project sounds quite shallow to me.",
+    "example_zh": "这个新项目听起来相当浅。",
+    "level": "primary"
+  },
+  {
+    "word": "round",
+    "meaning": "圆的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "It will be a round day for the whole class.",
+    "example_zh": "对全班来说这会是圆的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "oval",
+    "meaning": "椭圆的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "It will be a oval day for the whole class.",
+    "example_zh": "对全班来说这会是椭圆的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "heart",
+    "meaning": "心形",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The teacher mentioned heart during class.",
+    "example_zh": "老师在课上提到了心形。",
+    "level": "primary"
+  },
+  {
+    "word": "cross",
+    "meaning": "十字",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Children should know more about cross.",
+    "example_zh": "孩子们应该多了解十字。",
+    "level": "primary"
+  },
+  {
+    "word": "sphere",
+    "meaning": "球体",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We learned about sphere in our last lesson.",
+    "example_zh": "我们上节课学了球体。",
+    "level": "primary"
+  },
+  {
+    "word": "cube",
+    "meaning": "立方体",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Many students are interested in cube.",
+    "example_zh": "许多学生对立方体感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "cone",
+    "meaning": "圆锥",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Have you ever heard of cone before?",
+    "example_zh": "你以前听说过圆锥吗？",
+    "level": "primary"
+  },
+  {
+    "word": "cylinder",
+    "meaning": "圆柱",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Cylinder plays an important role in our daily life.",
+    "example_zh": "圆柱在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "pyramid",
+    "meaning": "金字塔",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Have you ever heard of pyramid before?",
+    "example_zh": "你以前听说过金字塔吗？",
+    "level": "primary"
+  },
+  {
+    "word": "ball",
+    "meaning": "球",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We learned about ball in our last lesson.",
+    "example_zh": "我们上节课学了球。",
+    "level": "primary"
+  },
+  {
+    "word": "ring",
+    "meaning": "环",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The teacher mentioned ring during class.",
+    "example_zh": "老师在课上提到了环。",
+    "level": "primary"
+  },
+  {
+    "word": "ribbon",
+    "meaning": "丝带",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Many students are interested in ribbon.",
+    "example_zh": "许多学生对丝带感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "stripe",
+    "meaning": "条纹",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Many students are interested in stripe.",
+    "example_zh": "许多学生对条纹感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "spot",
+    "meaning": "斑点",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "My sister often talks about spot.",
+    "example_zh": "姐姐经常谈论斑点。",
+    "level": "primary"
+  },
+  {
+    "word": "sign",
+    "meaning": "标志",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Sign plays an important role in our daily life.",
+    "example_zh": "标志在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "symbol",
+    "meaning": "符号",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Children should know more about symbol.",
+    "example_zh": "孩子们应该多了解符号。",
+    "level": "primary"
+  },
+  {
+    "word": "picture",
+    "meaning": "图片",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "My sister often talks about picture.",
+    "example_zh": "姐姐经常谈论图片。",
+    "level": "primary"
+  },
+  {
+    "word": "photo",
+    "meaning": "照片",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Children should know more about photo.",
+    "example_zh": "孩子们应该多了解照片。",
+    "level": "primary"
+  },
+  {
+    "word": "drawing",
+    "meaning": "画",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We had a long discussion about drawing yesterday.",
+    "example_zh": "昨天我们就画进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "painting",
+    "meaning": "绘画",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Many students are interested in painting.",
+    "example_zh": "许多学生对绘画感兴趣。",
+    "level": "primary"
+  },
+  {
+    "word": "image",
+    "meaning": "图像",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "My sister often talks about image.",
+    "example_zh": "姐姐经常谈论图像。",
+    "level": "primary"
+  },
+  {
+    "word": "view",
+    "meaning": "景色",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "View plays an important role in our daily life.",
+    "example_zh": "景色在我们的日常生活中扮演着重要角色。",
+    "level": "primary"
+  },
+  {
+    "word": "scene",
+    "meaning": "场景",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Have you ever heard of scene before?",
+    "example_zh": "你以前听说过场景吗？",
+    "level": "primary"
+  },
+  {
+    "word": "frame",
+    "meaning": "画框",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Have you ever heard of frame before?",
+    "example_zh": "你以前听说过画框吗？",
+    "level": "primary"
+  },
+  {
+    "word": "mirror",
+    "meaning": "镜子",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The teacher mentioned mirror during class.",
+    "example_zh": "老师在课上提到了镜子。",
+    "level": "primary"
+  },
+  {
+    "word": "plastic",
+    "meaning": "塑料",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The article gave a clear example of plastic.",
+    "example_zh": "这篇文章给出了一个关于塑料的清晰例子。",
+    "level": "primary"
+  },
+  {
+    "word": "wood",
+    "meaning": "木头",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We had a long discussion about wood yesterday.",
+    "example_zh": "昨天我们就木头进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "metal",
+    "meaning": "金属",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The teacher mentioned metal during class.",
+    "example_zh": "老师在课上提到了金属。",
+    "level": "primary"
+  },
+  {
+    "word": "cloth",
+    "meaning": "布",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We learned about cloth in our last lesson.",
+    "example_zh": "我们上节课学了布。",
+    "level": "primary"
+  },
+  {
+    "word": "fabric",
+    "meaning": "织物",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "We had a long discussion about fabric yesterday.",
+    "example_zh": "昨天我们就织物进行了长时间讨论。",
+    "level": "primary"
+  },
+  {
+    "word": "empty",
+    "meaning": "空的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The new project sounds quite empty to me.",
+    "example_zh": "这个新项目听起来相当空。",
+    "level": "primary"
+  },
+  {
+    "word": "full",
+    "meaning": "满的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "He found the lecture very full.",
+    "example_zh": "他觉得这场讲座非常满。",
+    "level": "primary"
+  },
+  {
+    "word": "heavy",
+    "meaning": "重的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "She made a heavy decision in the end.",
+    "example_zh": "最后她做出了一个重决定。",
+    "level": "primary"
+  },
+  {
+    "word": "hollow",
+    "meaning": "空心的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Her opinion on this matter is rather hollow.",
+    "example_zh": "她对这件事的看法相当空心。",
+    "level": "primary"
+  },
+  {
+    "word": "flat",
+    "meaning": "平的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "To us, the question seemed flat at first.",
+    "example_zh": "这个问题在我们看来一开始平。",
+    "level": "primary"
+  },
+  {
+    "word": "sharp",
+    "meaning": "锋利的",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The new project sounds quite sharp to me.",
+    "example_zh": "这个新项目听起来相当锋利。",
+    "level": "primary"
+  },
+  {
+    "word": "walk",
+    "meaning": "走",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should walk more carefully next time.",
+    "example_zh": "下次你应该更仔细地走。",
+    "level": "primary"
+  },
+  {
+    "word": "sit",
+    "meaning": "坐",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let me show you how to sit.",
+    "example_zh": "让我告诉你如何坐。",
+    "level": "primary"
+  },
+  {
+    "word": "stand",
+    "meaning": "站",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to stand before you leave.",
+    "example_zh": "你走之前别忘了站。",
+    "level": "primary"
+  },
+  {
+    "word": "lie",
+    "meaning": "躺",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let me show you how to lie.",
+    "example_zh": "让我告诉你如何躺。",
+    "level": "primary"
+  },
+  {
+    "word": "sleep",
+    "meaning": "睡",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to sleep.",
+    "example_zh": "爸爸教我如何睡。",
+    "level": "primary"
+  },
+  {
+    "word": "wake",
+    "meaning": "醒来",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to wake this year.",
+    "example_zh": "她今年正在学习如何醒来。",
+    "level": "primary"
+  },
+  {
+    "word": "play",
+    "meaning": "玩",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She decided to play again next week.",
+    "example_zh": "她决定下周再玩一次。",
+    "level": "primary"
+  },
+  {
+    "word": "work",
+    "meaning": "工作",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to work this weekend.",
+    "example_zh": "这周末他们会尝试工作。",
+    "level": "primary"
+  },
+  {
+    "word": "rest",
+    "meaning": "休息",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let me show you how to rest.",
+    "example_zh": "让我告诉你如何休息。",
+    "level": "primary"
+  },
+  {
+    "word": "exercise",
+    "meaning": "锻炼",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to exercise this weekend.",
+    "example_zh": "这周末他们会尝试锻炼。",
+    "level": "primary"
+  },
+  {
+    "word": "practice",
+    "meaning": "练习",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to practice this weekend.",
+    "example_zh": "这周末他们会尝试练习。",
+    "level": "primary"
+  },
+  {
+    "word": "look",
+    "meaning": "看",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to look at first.",
+    "example_zh": "一开始看并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "watch",
+    "meaning": "观看",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She decided to watch again next week.",
+    "example_zh": "她决定下周再观看一次。",
+    "level": "primary"
+  },
+  {
+    "word": "see",
+    "meaning": "看见",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to see.",
+    "example_zh": "爸爸教我如何看见。",
+    "level": "primary"
+  },
+  {
+    "word": "hear",
+    "meaning": "听见",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to hear.",
+    "example_zh": "爸爸教我如何听见。",
+    "level": "primary"
+  },
+  {
+    "word": "smell",
+    "meaning": "闻",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to smell this weekend.",
+    "example_zh": "这周末他们会尝试闻。",
+    "level": "primary"
+  },
+  {
+    "word": "taste",
+    "meaning": "品尝",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to taste before you leave.",
+    "example_zh": "你走之前别忘了品尝。",
+    "level": "primary"
+  },
+  {
+    "word": "feel",
+    "meaning": "感觉",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to feel this weekend.",
+    "example_zh": "这周末他们会尝试感觉。",
+    "level": "primary"
+  },
+  {
+    "word": "touch",
+    "meaning": "触摸",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to touch before you leave.",
+    "example_zh": "你走之前别忘了触摸。",
+    "level": "primary"
+  },
+  {
+    "word": "hold",
+    "meaning": "抓",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "I want to hold better than before.",
+    "example_zh": "我想比以前抓得更好。",
+    "level": "primary"
+  },
+  {
+    "word": "carry",
+    "meaning": "搬运",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to carry before you leave.",
+    "example_zh": "你走之前别忘了搬运。",
+    "level": "primary"
+  },
+  {
+    "word": "push",
+    "meaning": "推",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to push this year.",
+    "example_zh": "她今年正在学习如何推。",
+    "level": "primary"
+  },
+  {
+    "word": "pull",
+    "meaning": "拉",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should pull more carefully next time.",
+    "example_zh": "下次你应该更仔细地拉。",
+    "level": "primary"
+  },
+  {
+    "word": "drop",
+    "meaning": "掉",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to drop this weekend.",
+    "example_zh": "这周末他们会尝试掉。",
+    "level": "primary"
+  },
+  {
+    "word": "pick",
+    "meaning": "挑",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to pick.",
+    "example_zh": "爸爸教我如何挑。",
+    "level": "primary"
+  },
+  {
+    "word": "throw",
+    "meaning": "扔",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to throw this weekend.",
+    "example_zh": "这周末他们会尝试扔。",
+    "level": "primary"
+  },
+  {
+    "word": "catch",
+    "meaning": "接住",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let me show you how to catch.",
+    "example_zh": "让我告诉你如何接住。",
+    "level": "primary"
+  },
+  {
+    "word": "hit",
+    "meaning": "打",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should hit more carefully next time.",
+    "example_zh": "下次你应该更仔细地打。",
+    "level": "primary"
+  },
+  {
+    "word": "kick",
+    "meaning": "踢",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to kick.",
+    "example_zh": "爸爸教我如何踢。",
+    "level": "primary"
+  },
+  {
+    "word": "hug",
+    "meaning": "拥抱",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to hug at first.",
+    "example_zh": "一开始拥抱并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "kiss",
+    "meaning": "亲吻",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to kiss this weekend.",
+    "example_zh": "这周末他们会尝试亲吻。",
+    "level": "primary"
+  },
+  {
+    "word": "smile",
+    "meaning": "微笑",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "I want to smile better than before.",
+    "example_zh": "我想比以前微笑得更好。",
+    "level": "primary"
+  },
+  {
+    "word": "laugh",
+    "meaning": "笑",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "I want to laugh better than before.",
+    "example_zh": "我想比以前笑得更好。",
+    "level": "primary"
+  },
+  {
+    "word": "cry",
+    "meaning": "哭",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to cry.",
+    "example_zh": "爸爸教我如何哭。",
+    "level": "primary"
+  },
+  {
+    "word": "shout",
+    "meaning": "喊",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let me show you how to shout.",
+    "example_zh": "让我告诉你如何喊。",
+    "level": "primary"
+  },
+  {
+    "word": "talk",
+    "meaning": "谈话",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to talk this weekend.",
+    "example_zh": "这周末他们会尝试谈话。",
+    "level": "primary"
+  },
+  {
+    "word": "tell",
+    "meaning": "告诉",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to tell this weekend.",
+    "example_zh": "这周末他们会尝试告诉。",
+    "level": "primary"
+  },
+  {
+    "word": "ask",
+    "meaning": "问",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to ask together as a team.",
+    "example_zh": "我们需要作为一个团队一起问。",
+    "level": "primary"
+  },
+  {
+    "word": "reply",
+    "meaning": "回复",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to reply.",
+    "example_zh": "爸爸教我如何回复。",
+    "level": "primary"
+  },
+  {
+    "word": "agree",
+    "meaning": "同意",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to agree this year.",
+    "example_zh": "她今年正在学习如何同意。",
+    "level": "primary"
+  },
+  {
+    "word": "give",
+    "meaning": "给",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to give.",
+    "example_zh": "爸爸教我如何给。",
+    "level": "primary"
+  },
+  {
+    "word": "take",
+    "meaning": "拿",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to take this year.",
+    "example_zh": "她今年正在学习如何拿。",
+    "level": "primary"
+  },
+  {
+    "word": "send",
+    "meaning": "送",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to send at first.",
+    "example_zh": "一开始送并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "receive",
+    "meaning": "接收",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to receive at first.",
+    "example_zh": "一开始接收并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "buy",
+    "meaning": "买",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to buy before you leave.",
+    "example_zh": "你走之前别忘了买。",
+    "level": "primary"
+  },
+  {
+    "word": "sell",
+    "meaning": "卖",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to sell before you leave.",
+    "example_zh": "你走之前别忘了卖。",
+    "level": "primary"
+  },
+  {
+    "word": "pay",
+    "meaning": "支付",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let me show you how to pay.",
+    "example_zh": "让我告诉你如何支付。",
+    "level": "primary"
+  },
+  {
+    "word": "save",
+    "meaning": "节省",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to save this weekend.",
+    "example_zh": "这周末他们会尝试节省。",
+    "level": "primary"
+  },
+  {
+    "word": "spend",
+    "meaning": "花费",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to spend this weekend.",
+    "example_zh": "这周末他们会尝试花费。",
+    "level": "primary"
+  },
+  {
+    "word": "find",
+    "meaning": "找到",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to find at first.",
+    "example_zh": "一开始找到并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "lose",
+    "meaning": "丢失",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to lose.",
+    "example_zh": "爸爸教我如何丢失。",
+    "level": "primary"
+  },
+  {
+    "word": "search",
+    "meaning": "搜索",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to search this weekend.",
+    "example_zh": "这周末他们会尝试搜索。",
+    "level": "primary"
+  },
+  {
+    "word": "win",
+    "meaning": "赢",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should win more carefully next time.",
+    "example_zh": "下次你应该更仔细地赢。",
+    "level": "primary"
+  },
+  {
+    "word": "follow",
+    "meaning": "跟随",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to follow together as a team.",
+    "example_zh": "我们需要作为一个团队一起跟随。",
+    "level": "primary"
+  },
+  {
+    "word": "lead",
+    "meaning": "引导",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to lead together as a team.",
+    "example_zh": "我们需要作为一个团队一起引导。",
+    "level": "primary"
+  },
+  {
+    "word": "chase",
+    "meaning": "追逐",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to chase together as a team.",
+    "example_zh": "我们需要作为一个团队一起追逐。",
+    "level": "primary"
+  },
+  {
+    "word": "hide",
+    "meaning": "隐藏",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She decided to hide again next week.",
+    "example_zh": "她决定下周再隐藏一次。",
+    "level": "primary"
+  },
+  {
+    "word": "leave",
+    "meaning": "离开",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to leave this year.",
+    "example_zh": "她今年正在学习如何离开。",
+    "level": "primary"
+  },
+  {
+    "word": "stay",
+    "meaning": "停留",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to stay together as a team.",
+    "example_zh": "我们需要作为一个团队一起停留。",
+    "level": "primary"
+  },
+  {
+    "word": "live",
+    "meaning": "住",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to live before you leave.",
+    "example_zh": "你走之前别忘了住。",
+    "level": "primary"
+  },
+  {
+    "word": "die",
+    "meaning": "死",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She decided to die again next week.",
+    "example_zh": "她决定下周再死一次。",
+    "level": "primary"
+  },
+  {
+    "word": "grow",
+    "meaning": "生长",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to grow together as a team.",
+    "example_zh": "我们需要作为一个团队一起生长。",
+    "level": "primary"
+  },
+  {
+    "word": "change",
+    "meaning": "改变",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to change at first.",
+    "example_zh": "一开始改变并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "become",
+    "meaning": "成为",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should become more carefully next time.",
+    "example_zh": "下次你应该更仔细地成为。",
+    "level": "primary"
+  },
+  {
+    "word": "move",
+    "meaning": "移动",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to move together as a team.",
+    "example_zh": "我们需要作为一个团队一起移动。",
+    "level": "primary"
+  },
+  {
+    "word": "like",
+    "meaning": "喜欢",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to like.",
+    "example_zh": "爸爸教我如何喜欢。",
+    "level": "primary"
+  },
+  {
+    "word": "hate",
+    "meaning": "讨厌",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to hate this year.",
+    "example_zh": "她今年正在学习如何讨厌。",
+    "level": "primary"
+  },
+  {
+    "word": "want",
+    "meaning": "想要",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should want more carefully next time.",
+    "example_zh": "下次你应该更仔细地想要。",
+    "level": "primary"
+  },
+  {
+    "word": "need",
+    "meaning": "需要",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "You should need more carefully next time.",
+    "example_zh": "下次你应该更仔细地需要。",
+    "level": "primary"
+  },
+  {
+    "word": "hope",
+    "meaning": "希望",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to hope.",
+    "example_zh": "爸爸教我如何希望。",
+    "level": "primary"
+  },
+  {
+    "word": "wish",
+    "meaning": "希望",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She is learning how to wish this year.",
+    "example_zh": "她今年正在学习如何希望。",
+    "level": "primary"
+  },
+  {
+    "word": "dream",
+    "meaning": "梦想",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to dream this weekend.",
+    "example_zh": "这周末他们会尝试梦想。",
+    "level": "primary"
+  },
+  {
+    "word": "think",
+    "meaning": "想",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "They will try to think this weekend.",
+    "example_zh": "这周末他们会尝试想。",
+    "level": "primary"
+  },
+  {
+    "word": "know",
+    "meaning": "知道",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to know.",
+    "example_zh": "爸爸教我如何知道。",
+    "level": "primary"
+  },
+  {
+    "word": "believe",
+    "meaning": "相信",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She decided to believe again next week.",
+    "example_zh": "她决定下周再相信一次。",
+    "level": "primary"
+  },
+  {
+    "word": "decide",
+    "meaning": "决定",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to decide together as a team.",
+    "example_zh": "我们需要作为一个团队一起决定。",
+    "level": "primary"
+  },
+  {
+    "word": "choose",
+    "meaning": "选择",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to choose together as a team.",
+    "example_zh": "我们需要作为一个团队一起选择。",
+    "level": "primary"
+  },
+  {
+    "word": "build",
+    "meaning": "建造",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It's not easy to build at first.",
+    "example_zh": "一开始建造并不容易。",
+    "level": "primary"
+  },
+  {
+    "word": "make",
+    "meaning": "制作",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to make.",
+    "example_zh": "爸爸教我如何制作。",
+    "level": "primary"
+  },
+  {
+    "word": "create",
+    "meaning": "创造",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Don't forget to create before you leave.",
+    "example_zh": "你走之前别忘了创造。",
+    "level": "primary"
+  },
+  {
+    "word": "fix",
+    "meaning": "修理",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "We need to fix together as a team.",
+    "example_zh": "我们需要作为一个团队一起修理。",
+    "level": "primary"
+  },
+  {
+    "word": "open",
+    "meaning": "打开",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She decided to open again next week.",
+    "example_zh": "她决定下周再打开一次。",
+    "level": "primary"
+  },
+  {
+    "word": "close",
+    "meaning": "关闭",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "My father teaches me how to close.",
+    "example_zh": "爸爸教我如何关闭。",
+    "level": "primary"
+  },
+  {
+    "word": "scared",
+    "meaning": "害怕的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It will be a scared day for the whole class.",
+    "example_zh": "对全班来说这会是害怕的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "brave",
+    "meaning": "勇敢的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "This kind of design seems brave to most people.",
+    "example_zh": "这种设计在多数人看来是勇敢。",
+    "level": "primary"
+  },
+  {
+    "word": "proud",
+    "meaning": "骄傲的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "The new project sounds quite proud to me.",
+    "example_zh": "这个新项目听起来相当骄傲。",
+    "level": "primary"
+  },
+  {
+    "word": "lonely",
+    "meaning": "孤独的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "To us, the question seemed lonely at first.",
+    "example_zh": "这个问题在我们看来一开始孤独。",
+    "level": "primary"
+  },
+  {
+    "word": "calm",
+    "meaning": "平静的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "The result of the experiment was calm.",
+    "example_zh": "实验的结果平静。",
+    "level": "primary"
+  },
+  {
+    "word": "lazy",
+    "meaning": "懒的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "The new project sounds quite lazy to me.",
+    "example_zh": "这个新项目听起来相当懒。",
+    "level": "primary"
+  },
+  {
+    "word": "healthy",
+    "meaning": "健康的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "It will be a healthy day for the whole class.",
+    "example_zh": "对全班来说这会是健康的一天。",
+    "level": "primary"
+  },
+  {
+    "word": "fast",
+    "meaning": "快的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "She made a fast decision in the end.",
+    "example_zh": "最后她做出了一个快决定。",
+    "level": "primary"
+  },
+  {
+    "word": "lucky",
+    "meaning": "幸运的",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "The new project sounds quite lucky to me.",
+    "example_zh": "这个新项目听起来相当幸运。",
+    "level": "primary"
+  },
+  {
+    "word": "hello",
+    "meaning": "你好",
+    "phonetic": "/hə'ləʊ/",
+    "pos": "int",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Hello, everyone! Welcome to our class.",
+    "example_zh": "大家好！欢迎来到我们的课堂。"
+  },
+  {
+    "word": "yes",
+    "meaning": "是的",
+    "phonetic": "/jes/",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Yes, I can do it.",
+    "example_zh": "是的，我能做到。"
+  },
+  {
+    "word": "no",
+    "meaning": "不",
+    "phonetic": "/nəʊ/",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "There is no milk in the fridge.",
+    "example_zh": "冰箱里没有牛奶。"
+  },
+  {
+    "word": "please",
+    "meaning": "请",
+    "phonetic": "/pliːz/",
+    "pos": "adv",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Please sit down.",
+    "example_zh": "请坐下。"
+  },
+  {
+    "word": "thank",
+    "meaning": "感谢",
+    "phonetic": "/θæŋk/",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Thank you very much.",
+    "example_zh": "非常感谢你。"
+  },
+  {
+    "word": "sorry",
+    "meaning": "抱歉的",
+    "phonetic": "/'sɒri/",
+    "pos": "adj",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "I'm sorry for being late.",
+    "example_zh": "对不起我迟到了。"
+  },
+  {
+    "word": "goodbye",
+    "meaning": "再见",
+    "phonetic": "/ˌɡʊd'baɪ/",
+    "pos": "int",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "Goodbye, see you tomorrow morning.",
+    "example_zh": "再见，明早见。"
+  },
+  {
+    "word": "name",
+    "meaning": "名字",
+    "phonetic": "/neɪm/",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 1,
+    "example": "My name is Tom.",
+    "example_zh": "我叫汤姆。"
+  },
+  {
+    "word": "age",
+    "meaning": "年龄",
+    "phonetic": "/eɪdʒ/",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 2,
+    "example": "What is your age?",
+    "example_zh": "你多大了？"
+  },
+  {
+    "word": "morning",
+    "meaning": "早晨",
+    "phonetic": "/'mɔːnɪŋ/",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 2,
+    "example": "Good morning, class.",
+    "example_zh": "同学们早上好。"
+  },
+  {
+    "word": "afternoon",
+    "meaning": "下午",
+    "phonetic": "/ˌɑːftə'nuːn/",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 2,
+    "example": "Good afternoon, sir.",
+    "example_zh": "下午好，先生。"
+  },
+  {
+    "word": "evening",
+    "meaning": "傍晚",
+    "phonetic": "/'iːvnɪŋ/",
+    "pos": "n",
+    "topic": "basic",
+    "difficulty": 2,
+    "example": "I read in the evening.",
+    "example_zh": "我在傍晚读书。"
+  },
+  {
+    "word": "welcome",
+    "meaning": "欢迎",
+    "phonetic": "/'welkəm/",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 2,
+    "example": "Welcome to my home.",
+    "example_zh": "欢迎来我家。"
+  },
+  {
+    "word": "introduce",
+    "meaning": "介绍",
+    "phonetic": "/ˌɪntrə'djuːs/",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 3,
+    "example": "Let me introduce myself.",
+    "example_zh": "让我介绍一下自己。"
+  },
+  {
+    "word": "excuse",
+    "meaning": "原谅",
+    "phonetic": "/ɪk'skjuːz/",
+    "pos": "v",
+    "topic": "basic",
+    "difficulty": 3,
+    "example": "Excuse me, where is the toilet?",
+    "example_zh": "打扰一下，洗手间在哪？"
+  },
+  {
+    "word": "book",
+    "meaning": "书",
+    "phonetic": "/bʊk/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "I have a new book.",
+    "example_zh": "我有一本新书。"
+  },
+  {
+    "word": "pen",
+    "meaning": "钢笔",
+    "phonetic": "/pen/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "This is my pen.",
+    "example_zh": "这是我的钢笔。"
+  },
+  {
+    "word": "pencil",
+    "meaning": "铅笔",
+    "phonetic": "/'pensl/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "May I borrow your pencil?",
+    "example_zh": "我可以借你的铅笔吗？"
+  },
+  {
+    "word": "school",
+    "meaning": "学校",
+    "phonetic": "/skuːl/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "I go to school every day.",
+    "example_zh": "我每天去上学。"
+  },
+  {
+    "word": "teacher",
+    "meaning": "老师",
+    "phonetic": "/'tiːtʃə/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 1,
+    "example": "She is my English teacher.",
+    "example_zh": "她是我的英语老师。"
+  },
+  {
+    "word": "student",
+    "meaning": "学生",
+    "phonetic": "/'stjuːdnt/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 2,
+    "example": "He is a good student.",
+    "example_zh": "他是个好学生。"
+  },
+  {
+    "word": "classroom",
+    "meaning": "教室",
+    "phonetic": "/'klɑːsruːm/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 2,
+    "example": "Our classroom is big.",
+    "example_zh": "我们的教室很大。"
+  },
+  {
+    "word": "lesson",
+    "meaning": "课程",
+    "phonetic": "/'lesn/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 2,
+    "example": "Today's lesson is interesting.",
+    "example_zh": "今天的课很有趣。"
+  },
+  {
+    "word": "ruler",
+    "meaning": "尺子",
+    "phonetic": "/'ruːlə/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 2,
+    "example": "Use a ruler to draw a line.",
+    "example_zh": "用尺子画一条线。"
+  },
+  {
+    "word": "eraser",
+    "meaning": "橡皮",
+    "phonetic": "/ɪ'reɪzə/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 2,
+    "example": "I lost my eraser.",
+    "example_zh": "我把橡皮弄丢了。"
+  },
+  {
+    "word": "library",
+    "meaning": "图书馆",
+    "phonetic": "/'laɪbrəri/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 3,
+    "example": "The library is quiet.",
+    "example_zh": "图书馆很安静。"
+  },
+  {
+    "word": "blackboard",
+    "meaning": "黑板",
+    "phonetic": "/'blækbɔːd/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 3,
+    "example": "Look at the blackboard.",
+    "example_zh": "看黑板。"
+  },
+  {
+    "word": "subject",
+    "meaning": "科目",
+    "phonetic": "/'sʌbdʒɪkt/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 3,
+    "example": "My favorite subject is math.",
+    "example_zh": "我最喜欢的科目是数学。"
+  },
+  {
+    "word": "knowledge",
+    "meaning": "知识",
+    "phonetic": "/'nɒlɪdʒ/",
+    "pos": "n",
+    "topic": "school",
+    "difficulty": 3,
+    "example": "Knowledge is power.",
+    "example_zh": "知识就是力量。"
+  },
+  {
+    "word": "dog",
+    "meaning": "狗",
+    "phonetic": "/dɒɡ/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The dog is barking.",
+    "example_zh": "狗在叫。"
+  },
+  {
+    "word": "cat",
+    "meaning": "猫",
+    "phonetic": "/kæt/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "My cat is white.",
+    "example_zh": "我的猫是白色的。"
+  },
+  {
+    "word": "bird",
+    "meaning": "鸟",
+    "phonetic": "/bɜːd/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The bird can sing.",
+    "example_zh": "小鸟会唱歌。"
+  },
+  {
+    "word": "tree",
+    "meaning": "树",
+    "phonetic": "/triː/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "There is a big tree.",
+    "example_zh": "那里有一棵大树。"
+  },
+  {
+    "word": "flower",
+    "meaning": "花",
+    "phonetic": "/'flaʊə/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 1,
+    "example": "The flower is beautiful.",
+    "example_zh": "这朵花很漂亮。"
+  },
+  {
+    "word": "sun",
+    "meaning": "太阳",
+    "phonetic": "/sʌn/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 2,
+    "example": "The sun is shining.",
+    "example_zh": "太阳在照耀。"
+  },
+  {
+    "word": "moon",
+    "meaning": "月亮",
+    "phonetic": "/muːn/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 2,
+    "example": "The moon is bright tonight.",
+    "example_zh": "今晚月亮很亮。"
+  },
+  {
+    "word": "rain",
+    "meaning": "雨",
+    "phonetic": "/reɪn/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 2,
+    "example": "It is going to rain.",
+    "example_zh": "要下雨了。"
+  },
+  {
+    "word": "snow",
+    "meaning": "雪",
+    "phonetic": "/snəʊ/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 2,
+    "example": "Snow falls in winter.",
+    "example_zh": "冬天会下雪。"
+  },
+  {
+    "word": "river",
+    "meaning": "河",
+    "phonetic": "/'rɪvə/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 2,
+    "example": "The river is long.",
+    "example_zh": "这条河很长。"
+  },
+  {
+    "word": "mountain",
+    "meaning": "山",
+    "phonetic": "/'maʊntən/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 3,
+    "example": "Climb the mountain.",
+    "example_zh": "爬上这座山。"
+  },
+  {
+    "word": "weather",
+    "meaning": "天气",
+    "phonetic": "/'weðə/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 3,
+    "example": "How is the weather today?",
+    "example_zh": "今天天气怎么样？"
+  },
+  {
+    "word": "elephant",
+    "meaning": "大象",
+    "phonetic": "/'elɪfənt/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 3,
+    "example": "An elephant has a long nose.",
+    "example_zh": "大象有长鼻子。"
+  },
+  {
+    "word": "butterfly",
+    "meaning": "蝴蝶",
+    "phonetic": "/'bʌtəflaɪ/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 3,
+    "example": "A butterfly is on the flower.",
+    "example_zh": "一只蝴蝶在花上。"
+  },
+  {
+    "word": "rainbow",
+    "meaning": "彩虹",
+    "phonetic": "/'reɪnbəʊ/",
+    "pos": "n",
+    "topic": "nature",
+    "difficulty": 3,
+    "example": "Look at the rainbow!",
+    "example_zh": "看那道彩虹！"
+  },
+  {
+    "word": "apple",
+    "meaning": "苹果",
+    "phonetic": "/'æpl/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "I eat an apple a day.",
+    "example_zh": "我每天吃一个苹果。"
+  },
+  {
+    "word": "egg",
+    "meaning": "鸡蛋",
+    "phonetic": "/eɡ/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "I want an egg.",
+    "example_zh": "我想要一个鸡蛋。"
+  },
+  {
+    "word": "milk",
+    "meaning": "牛奶",
+    "phonetic": "/mɪlk/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Drink some milk.",
+    "example_zh": "喝点牛奶。"
+  },
+  {
+    "word": "rice",
+    "meaning": "米饭",
+    "phonetic": "/raɪs/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "I love rice.",
+    "example_zh": "我喜欢米饭。"
+  },
+  {
+    "word": "bread",
+    "meaning": "面包",
+    "phonetic": "/bred/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "Bread is on the table.",
+    "example_zh": "面包在桌上。"
+  },
+  {
+    "word": "water",
+    "meaning": "水",
+    "phonetic": "/'wɔːtə/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 1,
+    "example": "I drink water.",
+    "example_zh": "我喝水。"
+  },
+  {
+    "word": "banana",
+    "meaning": "香蕉",
+    "phonetic": "/bə'nɑːnə/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 2,
+    "example": "Monkeys like bananas.",
+    "example_zh": "猴子喜欢香蕉。"
+  },
+  {
+    "word": "orange",
+    "meaning": "橙子",
+    "phonetic": "/'ɒrɪndʒ/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 2,
+    "example": "Oranges are sweet.",
+    "example_zh": "橙子很甜。"
+  },
+  {
+    "word": "noodle",
+    "meaning": "面条",
+    "phonetic": "/'nuːdl/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 2,
+    "example": "I had noodles for lunch.",
+    "example_zh": "我午饭吃了面条。"
+  },
+  {
+    "word": "juice",
+    "meaning": "果汁",
+    "phonetic": "/dʒuːs/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 2,
+    "example": "Apple juice is delicious.",
+    "example_zh": "苹果汁很好喝。"
+  },
+  {
+    "word": "breakfast",
+    "meaning": "早餐",
+    "phonetic": "/'brekfəst/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 2,
+    "example": "Have a good breakfast.",
+    "example_zh": "好好吃早餐。"
+  },
+  {
+    "word": "vegetable",
+    "meaning": "蔬菜",
+    "phonetic": "/'vedʒtəbl/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 3,
+    "example": "Eat more vegetables.",
+    "example_zh": "多吃蔬菜。"
+  },
+  {
+    "word": "sandwich",
+    "meaning": "三明治",
+    "phonetic": "/'sænwɪdʒ/",
+    "pos": "n",
+    "topic": "food",
+    "difficulty": 3,
+    "example": "I like ham sandwiches.",
+    "example_zh": "我喜欢火腿三明治。"
+  },
+  {
+    "word": "delicious",
+    "meaning": "美味的",
+    "phonetic": "/dɪ'lɪʃəs/",
+    "pos": "adj",
+    "topic": "food",
+    "difficulty": 3,
+    "example": "The cake is delicious.",
+    "example_zh": "这蛋糕很美味。"
+  },
+  {
+    "word": "dad",
+    "meaning": "爸爸",
+    "phonetic": "/dæd/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "My dad is tall.",
+    "example_zh": "我爸爸很高。"
+  },
+  {
+    "word": "mom",
+    "meaning": "妈妈",
+    "phonetic": "/mɒm/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "I love my mom.",
+    "example_zh": "我爱妈妈。"
+  },
+  {
+    "word": "boy",
+    "meaning": "男孩",
+    "phonetic": "/bɔɪ/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "He is a tall boy.",
+    "example_zh": "他是个高个子男孩。"
+  },
+  {
+    "word": "girl",
+    "meaning": "女孩",
+    "phonetic": "/ɡɜːl/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "The girl is singing.",
+    "example_zh": "女孩在唱歌。"
+  },
+  {
+    "word": "friend",
+    "meaning": "朋友",
+    "phonetic": "/frend/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 1,
+    "example": "She is my best friend.",
+    "example_zh": "她是我最好的朋友。"
+  },
+  {
+    "word": "father",
+    "meaning": "父亲",
+    "phonetic": "/'fɑːðə/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 2,
+    "example": "My father is a doctor.",
+    "example_zh": "我爸爸是医生。"
+  },
+  {
+    "word": "mother",
+    "meaning": "母亲",
+    "phonetic": "/'mʌðə/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 2,
+    "example": "My mother is kind.",
+    "example_zh": "我妈妈很善良。"
+  },
+  {
+    "word": "brother",
+    "meaning": "兄弟",
+    "phonetic": "/'brʌðə/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 2,
+    "example": "My brother is younger.",
+    "example_zh": "我弟弟比我小。"
+  },
+  {
+    "word": "sister",
+    "meaning": "姐妹",
+    "phonetic": "/'sɪstə/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 2,
+    "example": "My sister has long hair.",
+    "example_zh": "我姐姐有长头发。"
+  },
+  {
+    "word": "uncle",
+    "meaning": "叔叔",
+    "phonetic": "/'ʌŋkl/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 2,
+    "example": "My uncle lives in Beijing.",
+    "example_zh": "我叔叔住在北京。"
+  },
+  {
+    "word": "aunt",
+    "meaning": "阿姨",
+    "phonetic": "/ɑːnt/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 3,
+    "example": "Aunt Mary is funny.",
+    "example_zh": "玛丽阿姨很有趣。"
+  },
+  {
+    "word": "cousin",
+    "meaning": "表兄弟姐妹",
+    "phonetic": "/'kʌzn/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 3,
+    "example": "My cousin is six.",
+    "example_zh": "我表妹六岁。"
+  },
+  {
+    "word": "grandfather",
+    "meaning": "祖父",
+    "phonetic": "/'ɡrænfɑːðə/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 3,
+    "example": "Grandfather tells stories.",
+    "example_zh": "爷爷讲故事。"
+  },
+  {
+    "word": "grandmother",
+    "meaning": "祖母",
+    "phonetic": "/'ɡrænmʌðə/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 3,
+    "example": "Grandmother makes cakes.",
+    "example_zh": "奶奶做蛋糕。"
+  },
+  {
+    "word": "classmate",
+    "meaning": "同学",
+    "phonetic": "/'klɑːsmeɪt/",
+    "pos": "n",
+    "topic": "family",
+    "difficulty": 3,
+    "example": "He is my classmate.",
+    "example_zh": "他是我同学。"
+  },
+  {
+    "word": "one",
+    "meaning": "一",
+    "phonetic": "/wʌn/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "I have one elder brother and two younger sisters.",
+    "example_zh": "我有一个哥哥和两个妹妹。"
+  },
+  {
+    "word": "two",
+    "meaning": "二",
+    "phonetic": "/tuː/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "There are two cats sleeping on the sofa.",
+    "example_zh": "沙发上有两只猫在睡觉。"
+  },
+  {
+    "word": "three",
+    "meaning": "三",
+    "phonetic": "/θriː/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "My family lives in a house with three bedrooms.",
+    "example_zh": "我家住在一个三间卧室的房子里。"
+  },
+  {
+    "word": "ten",
+    "meaning": "十",
+    "phonetic": "/ten/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "He can count from one to ten in English.",
+    "example_zh": "他能用英语从一数到十。"
+  },
+  {
+    "word": "day",
+    "meaning": "天",
+    "phonetic": "/deɪ/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 1,
+    "example": "Have a nice day.",
+    "example_zh": "祝你今天愉快。"
+  },
+  {
+    "word": "week",
+    "meaning": "周",
+    "phonetic": "/wiːk/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 2,
+    "example": "There are seven days in a week.",
+    "example_zh": "一周有七天。"
+  },
+  {
+    "word": "month",
+    "meaning": "月",
+    "phonetic": "/mʌnθ/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 2,
+    "example": "May is the fifth month.",
+    "example_zh": "五月是第五个月。"
+  },
+  {
+    "word": "year",
+    "meaning": "年",
+    "phonetic": "/jɪə/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 2,
+    "example": "Happy New Year!",
+    "example_zh": "新年快乐！"
+  },
+  {
+    "word": "Monday",
+    "meaning": "星期一",
+    "phonetic": "/'mʌndeɪ/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 2,
+    "example": "I have math on Monday.",
+    "example_zh": "周一我有数学课。"
+  },
+  {
+    "word": "Sunday",
+    "meaning": "星期日",
+    "phonetic": "/'sʌndeɪ/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 2,
+    "example": "We rest on Sunday.",
+    "example_zh": "我们周日休息。"
+  },
+  {
+    "word": "twelve",
+    "meaning": "十二",
+    "phonetic": "/twelv/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 3,
+    "example": "There are twelve months in a year.",
+    "example_zh": "一年有十二个月。"
+  },
+  {
+    "word": "twenty",
+    "meaning": "二十",
+    "phonetic": "/'twenti/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 3,
+    "example": "I have read twenty books this year.",
+    "example_zh": "今年我读了二十本书。"
+  },
+  {
+    "word": "hundred",
+    "meaning": "百",
+    "phonetic": "/'hʌndrəd/",
+    "pos": "num",
+    "topic": "numtime",
+    "difficulty": 3,
+    "example": "More than a hundred students joined the contest.",
+    "example_zh": "有一百多名学生参加了比赛。"
+  },
+  {
+    "word": "January",
+    "meaning": "一月",
+    "phonetic": "/'dʒænjuəri/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 3,
+    "example": "January is cold.",
+    "example_zh": "一月很冷。"
+  },
+  {
+    "word": "tomorrow",
+    "meaning": "明天",
+    "phonetic": "/tə'mɒrəʊ/",
+    "pos": "n",
+    "topic": "numtime",
+    "difficulty": 3,
+    "example": "We are going camping tomorrow.",
+    "example_zh": "我们明天要去野营。"
+  },
+  {
+    "word": "red",
+    "meaning": "红色",
+    "phonetic": "/red/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The apple is red.",
+    "example_zh": "苹果是红的。"
+  },
+  {
+    "word": "blue",
+    "meaning": "蓝色",
+    "phonetic": "/bluː/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The sky is blue.",
+    "example_zh": "天空是蓝的。"
+  },
+  {
+    "word": "green",
+    "meaning": "绿色",
+    "phonetic": "/ɡriːn/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "Leaves are green.",
+    "example_zh": "树叶是绿的。"
+  },
+  {
+    "word": "yellow",
+    "meaning": "黄色",
+    "phonetic": "/'jeləʊ/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "The sun is yellow.",
+    "example_zh": "太阳是黄的。"
+  },
+  {
+    "word": "black",
+    "meaning": "黑色",
+    "phonetic": "/blæk/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 1,
+    "example": "I have a black cat.",
+    "example_zh": "我有一只黑猫。"
+  },
+  {
+    "word": "white",
+    "meaning": "白色",
+    "phonetic": "/waɪt/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 2,
+    "example": "Snow is white.",
+    "example_zh": "雪是白的。"
+  },
+  {
+    "word": "pink",
+    "meaning": "粉色",
+    "phonetic": "/pɪŋk/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 2,
+    "example": "She wears pink shoes.",
+    "example_zh": "她穿粉色鞋子。"
+  },
+  {
+    "word": "brown",
+    "meaning": "棕色",
+    "phonetic": "/braʊn/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 2,
+    "example": "Bears are brown.",
+    "example_zh": "熊是棕色的。"
+  },
+  {
+    "word": "purple",
+    "meaning": "紫色",
+    "phonetic": "/'pɜːpl/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 2,
+    "example": "Grapes are purple.",
+    "example_zh": "葡萄是紫色的。"
+  },
+  {
+    "word": "circle",
+    "meaning": "圆形",
+    "phonetic": "/'sɜːkl/",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 2,
+    "example": "Draw a circle.",
+    "example_zh": "画一个圆。"
+  },
+  {
+    "word": "square",
+    "meaning": "正方形",
+    "phonetic": "/skweə/",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 3,
+    "example": "The window is a square.",
+    "example_zh": "窗户是正方形。"
+  },
+  {
+    "word": "triangle",
+    "meaning": "三角形",
+    "phonetic": "/'traɪæŋɡl/",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 3,
+    "example": "A triangle has 3 sides.",
+    "example_zh": "三角形有三条边。"
+  },
+  {
+    "word": "rectangle",
+    "meaning": "长方形",
+    "phonetic": "/'rektæŋɡl/",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 3,
+    "example": "The book is a rectangle.",
+    "example_zh": "书是长方形。"
+  },
+  {
+    "word": "colorful",
+    "meaning": "多彩的",
+    "phonetic": "/'kʌləfl/",
+    "pos": "adj",
+    "topic": "colorshape",
+    "difficulty": 3,
+    "example": "The flowers are colorful.",
+    "example_zh": "这些花五彩缤纷。"
+  },
+  {
+    "word": "shape",
+    "meaning": "形状",
+    "phonetic": "/ʃeɪp/",
+    "pos": "n",
+    "topic": "colorshape",
+    "difficulty": 3,
+    "example": "What shape is this?",
+    "example_zh": "这是什么形状？"
+  },
+  {
+    "word": "go",
+    "meaning": "去",
+    "phonetic": "/ɡəʊ/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Let's go to school.",
+    "example_zh": "我们去上学吧。"
+  },
+  {
+    "word": "run",
+    "meaning": "跑",
+    "phonetic": "/rʌn/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "I can run fast.",
+    "example_zh": "我跑得快。"
+  },
+  {
+    "word": "jump",
+    "meaning": "跳",
+    "phonetic": "/dʒʌmp/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "Frogs can jump.",
+    "example_zh": "青蛙会跳。"
+  },
+  {
+    "word": "happy",
+    "meaning": "开心的",
+    "phonetic": "/'hæpi/",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 1,
+    "example": "I am happy today.",
+    "example_zh": "我今天很开心。"
+  },
+  {
+    "word": "sad",
+    "meaning": "伤心的",
+    "phonetic": "/sæd/",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 2,
+    "example": "Don't be sad.",
+    "example_zh": "别伤心。"
+  },
+  {
+    "word": "swim",
+    "meaning": "游泳",
+    "phonetic": "/swɪm/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 2,
+    "example": "Fish swim in water.",
+    "example_zh": "鱼在水中游。"
+  },
+  {
+    "word": "love",
+    "meaning": "爱",
+    "phonetic": "/lʌv/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 2,
+    "example": "I love my parents.",
+    "example_zh": "我爱我的父母。"
+  },
+  {
+    "word": "angry",
+    "meaning": "生气的",
+    "phonetic": "/'æŋɡri/",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 3,
+    "example": "He looks angry.",
+    "example_zh": "他看起来很生气。"
+  },
+  {
+    "word": "excited",
+    "meaning": "兴奋的",
+    "phonetic": "/ɪk'saɪtɪd/",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 3,
+    "example": "I am excited about the trip.",
+    "example_zh": "我对这次旅行很兴奋。"
+  },
+  {
+    "word": "remember",
+    "meaning": "记得",
+    "phonetic": "/rɪ'membə/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 3,
+    "example": "Remember to lock the door.",
+    "example_zh": "记得锁门。"
+  },
+  {
+    "word": "understand",
+    "meaning": "明白",
+    "phonetic": "/ˌʌndə'stænd/",
+    "pos": "v",
+    "topic": "action",
+    "difficulty": 3,
+    "example": "I don't understand.",
+    "example_zh": "我不明白。"
+  },
+  {
+    "word": "surprised",
+    "meaning": "惊讶的",
+    "phonetic": "/sə'praɪzd/",
+    "pos": "adj",
+    "topic": "action",
+    "difficulty": 3,
+    "example": "She was surprised by the gift.",
+    "example_zh": "她对礼物感到惊讶。"
+  }
+]
