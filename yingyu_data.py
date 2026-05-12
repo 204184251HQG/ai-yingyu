@@ -15,7 +15,7 @@ YY_TOPICS = {
     "basic": {
         "name": "基础词汇",
         "icon": "[基]",
-        "color": "#2563eb",
+        "color": "#60a5fa",
         "desc": "日常生活中最常用的基础英语单词",
         "tips": [
             "Hello / Hi 都是问候语，Hi 更口语化",
@@ -28,7 +28,7 @@ YY_TOPICS = {
     "school": {
         "name": "学校生活",
         "icon": "[校]",
-        "color": "#0d9488",
+        "color": "#c4b5fd",
         "desc": "学校、文具、学科相关词汇",
         "tips": [
             "teacher 老师，student 学生",
@@ -41,7 +41,7 @@ YY_TOPICS = {
     "nature": {
         "name": "自然世界",
         "icon": "[然]",
-        "color": "#16a34a",
+        "color": "#86efac",
         "desc": "动物、植物、天气等自然词汇",
         "tips": [
             "动物名词如 dog、cat、bird 通常可数",
@@ -54,7 +54,7 @@ YY_TOPICS = {
     "food": {
         "name": "食物饮食",
         "icon": "[食]",
-        "color": "#d97706",
+        "color": "#fdba74",
         "desc": "食物、饮料、餐具相关词汇",
         "tips": [
             "apple 苹果，banana 香蕉，orange 橙子",
@@ -67,7 +67,7 @@ YY_TOPICS = {
     "family": {
         "name": "家庭朋友",
         "icon": "[亲]",
-        "color": "#dc2626",
+        "color": "#fb7185",
         "desc": "家庭成员、人物关系词汇",
         "tips": [
             "father / dad 爸爸，mother / mom 妈妈",
@@ -80,7 +80,7 @@ YY_TOPICS = {
     "numtime": {
         "name": "数字时间",
         "icon": "[数]",
-        "color": "#7c3aed",
+        "color": "#a78bfa",
         "desc": "数字、星期、月份、时间表达",
         "tips": [
             "1-12 是 one 到 twelve",
@@ -93,7 +93,7 @@ YY_TOPICS = {
     "colorshape": {
         "name": "颜色形状",
         "icon": "[色]",
-        "color": "#db2777",
+        "color": "#f9a8d4",
         "desc": "颜色与几何形状词汇",
         "tips": [
             "red 红，yellow 黄，blue 蓝，green 绿",
@@ -106,7 +106,7 @@ YY_TOPICS = {
     "action": {
         "name": "动作情感",
         "icon": "[动]",
-        "color": "#ea580c",
+        "color": "#fcd34d",
         "desc": "常用动词、情感形容词",
         "tips": [
             "动词 run、jump、walk、swim 描述动作",
@@ -120,9 +120,9 @@ YY_TOPICS = {
 
 # ── 学段标签 ──
 LEVELS = {
-    "primary": {"name": "小学", "color": "#16a34a", "grade_range": (1, 6)},
-    "middle":  {"name": "初中", "color": "#0d9488", "grade_range": (7, 9)},
-    "high":    {"name": "高中", "color": "#7c3aed", "grade_range": (10, 12)},
+    "primary": {"name": "小学", "color": "#86efac", "grade_range": (1, 6)},
+    "middle":  {"name": "初中", "color": "#fdba74", "grade_range": (7, 9)},
+    "high":    {"name": "高中", "color": "#fb7185", "grade_range": (10, 12)},
 }
 
 

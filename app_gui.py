@@ -28,29 +28,35 @@ import voice
 ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
 
-# ── 配色（清新蓝绿风）──
-C_PRIMARY = "#0d9488"           # 深绿松石
-C_PRIMARY_DARK = "#0f766e"
-C_PRIMARY_LIGHT = "#ccfbf1"
-C_BG = "#f0fdfa"                # 极淡薄荷
+# ── 配色（可爱风 · 樱花马卡龙）──
+C_PRIMARY = "#fb7185"           # 樱花粉
+C_PRIMARY_DARK = "#f43f5e"
+C_PRIMARY_LIGHT = "#ffe4e6"
+C_BG = "#fffafb"                # 奶白带粉底
 C_CARD = "#ffffff"
-C_TEXT = "#0f172a"
-C_SUB = "#475569"
-C_MUTED = "#94a3b8"
-C_BORDER = "#e2e8f0"
-C_BLUE = "#2563eb"
+C_TEXT = "#3f3f46"              # 柔和深灰
+C_SUB = "#71717a"
+C_MUTED = "#a1a1aa"
+C_BORDER = "#fbcfe8"            # 淡粉描边（柔和不刈）
+C_DIVIDER = "#fce7f3"           # 极淡粉分隔、进度条底
+C_BLUE = "#60a5fa"              # 柔和天蓝
+C_BLUE_DARK = "#3b82f6"
 C_BLUE_LIGHT = "#dbeafe"
-C_GREEN = "#16a34a"
+C_GREEN = "#86efac"             # 嫩薄荷
+C_GREEN_DARK = "#4ade80"
 C_GREEN_LIGHT = "#dcfce7"
-C_ORANGE = "#ea580c"
+C_ORANGE = "#fdba74"            # 桃色
+C_ORANGE_DARK = "#fb923c"
 C_ORANGE_LIGHT = "#ffedd5"
-C_RED = "#dc2626"
-C_RED_LIGHT = "#fee2e2"
-C_PURPLE = "#7c3aed"
+C_RED = "#fb7185"               # 同主色系
+C_RED_DARK = "#f43f5e"
+C_RED_LIGHT = "#ffe4e6"
+C_PURPLE = "#c4b5fd"            # 淡紫
+C_PURPLE_DARK = "#a78bfa"
 C_PURPLE_LIGHT = "#ede9fe"
-C_PINK = "#db2777"
+C_PINK = "#f9a8d4"              # 浅粉
 C_PINK_LIGHT = "#fce7f3"
-C_YELLOW = "#eab308"
+C_YELLOW = "#fcd34d"            # 蜜橙黄
 C_YELLOW_LIGHT = "#fef9c3"
 
 MODE_LABEL = {
@@ -65,12 +71,19 @@ POS_BADGE = {
     "num": "num.", "pron": "pron.",
 }
 
+# 主题的可爱 emoji 图标（不侵入数据层）
+TOPIC_EMOJI = {
+    "basic": "💬", "school": "🎒", "nature": "🌳", "food": "🍰",
+    "family": "🏠", "numtime": "⏰", "colorshape": "🎨", "action": "🌟",
+}
 
 def _card(parent, **kw):
     fg = kw.pop("fg_color", C_CARD)
     bd = kw.pop("border_color", C_BORDER)
-    return ctk.CTkFrame(parent, fg_color=fg, corner_radius=16,
-                        border_width=1, border_color=bd, **kw)
+    bw = kw.pop("border_width", 1)  # 可爱风：柔和淡粉描边
+    cr = kw.pop("corner_radius", 20)  # 可爱风：更圆润
+    return ctk.CTkFrame(parent, fg_color=fg, corner_radius=cr,
+                        border_width=bw, border_color=bd, **kw)
 
 
 # ════════════════════════════════════════════
@@ -101,9 +114,9 @@ class SplashPage(ctk.CTkFrame):
         # 顶部装饰字母
         deco = ctk.CTkFrame(center, fg_color="transparent")
         deco.pack(pady=(0, 16))
-        for sym, clr in [("A", "#2563eb"), ("B", C_GREEN), ("C", C_ORANGE),
-                          ("D", C_PURPLE), ("E", C_PINK), ("F", "#0d9488"),
-                          ("G", C_RED), ("H", "#eab308")]:
+        for sym, clr in [("A", C_BLUE), ("B", C_GREEN), ("C", C_ORANGE),
+                          ("D", C_PURPLE), ("E", C_PINK), ("F", C_PRIMARY),
+                          ("G", C_RED), ("H", C_YELLOW)]:
             eb = ctk.CTkFrame(deco, fg_color=clr, width=34, height=34, corner_radius=17)
             eb.pack(side="left", padx=3)
             eb.pack_propagate(False)
@@ -152,25 +165,54 @@ class HomePage(ctk.CTkFrame):
         banner = ctk.CTkFrame(self, fg_color=C_PRIMARY, corner_radius=0)
         banner.pack(fill="x", padx=0, pady=(0, 14))
         bi = ctk.CTkFrame(banner, fg_color="transparent")
-        bi.pack(fill="x", padx=20, pady=14)
-        ctk.CTkLabel(bi, text="Welcome back!  欢迎回来",
-                     font=ctk.CTkFont(size=22, weight="bold"),
+        bi.pack(fill="x", padx=20, pady=16)
+        bi_top = ctk.CTkFrame(bi, fg_color="transparent")
+        bi_top.pack(fill="x")
+
+        # 左侧：大头 mascot 头像
+        ctk.CTkLabel(bi_top, text="🐰", font=ctk.CTkFont(size=46),
+                     text_color="white").pack(side="left", padx=(0, 12))
+
+        welcome_box = ctk.CTkFrame(bi_top, fg_color="transparent")
+        welcome_box.pack(side="left", anchor="w")
+        ctk.CTkLabel(welcome_box, text="Welcome back  欢迎回来 ♡",
+                     font=ctk.CTkFont(size=24, weight="bold"),
                      text_color="white").pack(anchor="w")
+        ctk.CTkLabel(welcome_box, text="今天也要开心地背单词喔～",
+                     font=ctk.CTkFont(size=13),
+                     text_color="white").pack(anchor="w", pady=(2, 0))
+
+        # 右侧：动物群 + 小装饰
+        ctk.CTkLabel(bi_top, text="🐱  �  🌸  🎀  ⭐",
+                     font=ctk.CTkFont(size=22),
+                     text_color="white").pack(side="right", anchor="e", padx=(8, 0))
+
         sub = (f"已答题 {stats['total']} 次  ·  正确率 {stats['accuracy']}%  "
                f"·  已掌握单词 {stats['mastered_words']}/{stats['encountered_words']}")
-        ctk.CTkLabel(bi, text=sub, font=ctk.CTkFont(size=13),
-                     text_color="#ccfbf1").pack(anchor="w", pady=(2, 0))
+        ctk.CTkLabel(bi, text=sub, font=ctk.CTkFont(size=14),
+                     text_color="white").pack(anchor="w", pady=(10, 0))
 
         tip = random.choice(YY_TIPS)
         tip_card = _card(self, fg_color=C_BLUE_LIGHT, border_color=C_BLUE)
         tip_card.pack(fill="x", padx=16, pady=(0, 12))
-        ctk.CTkLabel(tip_card, text=f"今日 Tip：{tip}", font=ctk.CTkFont(size=12),
-                     text_color=C_BLUE, wraplength=520).pack(padx=14, pady=10)
+        tip_inner = ctk.CTkFrame(tip_card, fg_color="transparent")
+        tip_inner.pack(fill="x", padx=14, pady=12)
+        # 左侧圆形粉色提示 chip
+        tip_chip = ctk.CTkFrame(tip_inner, fg_color=C_PRIMARY, width=44, height=44,
+                                 corner_radius=22)
+        tip_chip.pack(side="left", padx=(0, 12))
+        tip_chip.pack_propagate(False)
+        ctk.CTkLabel(tip_chip, text="提", font=ctk.CTkFont(size=18, weight="bold"),
+                     text_color="white").place(relx=0.5, rely=0.5, anchor="center")
+        ctk.CTkLabel(tip_inner, text=f"今日小提示：{tip}",
+                     font=ctk.CTkFont(size=14, weight="bold"),
+                     text_color=C_BLUE, wraplength=560, justify="left"
+                     ).pack(side="left", anchor="w")
 
         # 学段筛选条
         level_bar = ctk.CTkFrame(self, fg_color="transparent")
         level_bar.pack(fill="x", padx=18, pady=(0, 8))
-        ctk.CTkLabel(level_bar, text="学段：", font=ctk.CTkFont(size=12, weight="bold"),
+        ctk.CTkLabel(level_bar, text="学段：", font=ctk.CTkFont(size=13, weight="bold"),
                      text_color=C_TEXT).pack(side="left", padx=(0, 6))
         lvc = count_words_by_level()
         total_count = sum(lvc.values())
@@ -184,17 +226,28 @@ class HomePage(ctk.CTkFrame):
             active = (lv == self.current_level)
             ctk.CTkButton(
                 level_bar, text=lbl,
-                width=92, height=28, corner_radius=14,
-                font=ctk.CTkFont(size=11, weight="bold"),
+                width=104, height=32, corner_radius=16,
+                font=ctk.CTkFont(size=12, weight="bold"),
                 fg_color=(clr if active else C_CARD),
                 hover_color=clr, text_color=("white" if active else clr),
                 border_width=(0 if active else 1), border_color=clr,
                 command=lambda l=lv: self._on_level_change(l),
             ).pack(side="left", padx=3)
 
-        ctk.CTkLabel(self, text="主题词库（点击进入闯关）",
-                     font=ctk.CTkFont(size=16, weight="bold"),
-                     text_color=C_TEXT).pack(anchor="w", padx=18, pady=(0, 8))
+        # 主题词库标题区（带 mascot 装饰）
+        topic_head = ctk.CTkFrame(self, fg_color="transparent")
+        topic_head.pack(fill="x", padx=18, pady=(10, 6))
+        ctk.CTkLabel(topic_head, text="�", font=ctk.CTkFont(size=24),
+                     text_color=C_PRIMARY).pack(side="left", padx=(0, 6))
+        ctk.CTkLabel(topic_head, text="主题词库",
+                     font=ctk.CTkFont(size=21, weight="bold"),
+                     text_color=C_TEXT).pack(side="left")
+        ctk.CTkLabel(topic_head, text="点一下卡片就能开始闯关喔～",
+                     font=ctk.CTkFont(size=12),
+                     text_color=C_SUB).pack(side="left", padx=(8, 0))
+        ctk.CTkLabel(topic_head, text="🐰  🐱  🐻",
+                     font=ctk.CTkFont(size=20),
+                     text_color=C_PRIMARY).pack(side="right")
 
         # 滚动主题列表
         scroll = ctk.CTkScrollableFrame(self, fg_color="transparent")
@@ -208,16 +261,29 @@ class HomePage(ctk.CTkFrame):
         self.navigate("home")
 
     def _topic_row(self, parent, tid, info, stats):
-        card = _card(parent)
-        card.pack(fill="x", padx=4, pady=3)
+        topic_clr = info.get('color', C_PRIMARY)
+        # 卡片边框用主题色 → 列表彩色密度提升
+        card = _card(parent, border_color=topic_clr)
+        card.pack(fill="x", padx=4, pady=4)
         card.configure(cursor="hand2")
         cb = lambda e, t=tid: self.navigate("quiz", t)
         card.bind("<Button-1>", cb)
 
+        # 左侧：主题色大圆形 chip（emoji 图标）
+        chip = ctk.CTkFrame(card, fg_color=topic_clr, width=58, height=58,
+                             corner_radius=20)
+        chip.pack(side="left", padx=(12, 8), pady=10)
+        chip.pack_propagate(False)
+        emo_lbl = ctk.CTkLabel(chip, text=TOPIC_EMOJI.get(tid, "★"),
+                                font=ctk.CTkFont(size=28), text_color="white")
+        emo_lbl.place(relx=0.5, rely=0.5, anchor="center")
+        chip.bind("<Button-1>", cb)
+        emo_lbl.bind("<Button-1>", cb)
+
         left = ctk.CTkFrame(card, fg_color="transparent")
-        left.pack(side="left", fill="x", expand=True, padx=12, pady=8)
-        lbl1 = ctk.CTkLabel(left, text=f"{info['icon']}  {info['name']}",
-                            font=ctk.CTkFont(size=14, weight="bold"),
+        left.pack(side="left", fill="x", expand=True, padx=4, pady=10)
+        lbl1 = ctk.CTkLabel(left, text=info['name'],
+                            font=ctk.CTkFont(size=17, weight="bold"),
                             text_color=C_TEXT)
         lbl1.pack(anchor="w")
         # 当前学段下该主题可用词量
@@ -225,16 +291,16 @@ class HomePage(ctk.CTkFrame):
         if self.current_level != "all":
             topic_pool = [w for w in topic_pool if w.get("level", "primary") == self.current_level]
         sub_text = f"{info['desc']}  ·  可用 {len(topic_pool)} 词"
-        lbl2 = ctk.CTkLabel(left, text=sub_text, font=ctk.CTkFont(size=11),
+        lbl2 = ctk.CTkLabel(left, text=sub_text, font=ctk.CTkFont(size=13),
                             text_color=C_SUB)
         lbl2.pack(anchor="w")
 
         ts = stats["by_topic"].get(tid, {"total": 0, "correct": 0})
         acc = round(ts["correct"] / ts["total"] * 100) if ts["total"] > 0 else 0
-        clr = (C_GREEN if acc >= 70 else (C_ORANGE if acc >= 40 else C_RED)) if ts["total"] > 0 else C_MUTED
+        clr_acc = (C_GREEN_DARK if acc >= 70 else (C_ORANGE_DARK if acc >= 40 else C_RED_DARK)) if ts["total"] > 0 else C_MUTED
         lbl3 = ctk.CTkLabel(card, text=f"{acc}%" if ts["total"] > 0 else "—",
-                            font=ctk.CTkFont(size=16, weight="bold"),
-                            text_color=clr, width=50)
+                            font=ctk.CTkFont(size=22, weight="bold"),
+                            text_color=clr_acc, width=64)
         lbl3.pack(side="right", padx=14)
         for w in (left, lbl1, lbl2, lbl3):
             w.bind("<Button-1>", cb)
@@ -260,28 +326,28 @@ class QuizPage(ctk.CTkFrame):
         head = ctk.CTkFrame(self, fg_color="transparent")
         head.pack(fill="x", padx=18, pady=(14, 4))
         ctk.CTkLabel(head, text=f"{info.get('icon', '')}  {info.get('name', '闯关')}",
-                     font=ctk.CTkFont(size=20, weight="bold"),
+                     font=ctk.CTkFont(size=22, weight="bold"),
                      text_color=C_PRIMARY_DARK).pack(side="left")
         # 学段徽章
         if self.level != "all" and self.level in LEVELS:
             lv_clr = LEVELS[self.level]["color"]
             ctk.CTkLabel(head, text=LEVELS[self.level]["name"],
-                         font=ctk.CTkFont(size=11, weight="bold"),
+                         font=ctk.CTkFont(size=12, weight="bold"),
                          text_color="white", fg_color=lv_clr,
-                         corner_radius=10, width=44, height=22
+                         corner_radius=10, width=48, height=24
                          ).pack(side="left", padx=8)
-        ctk.CTkButton(head, text="返回", width=60, height=28, corner_radius=8,
+        ctk.CTkButton(head, text="返回", width=64, height=32, corner_radius=8,
                       fg_color=C_CARD, hover_color=C_PRIMARY_LIGHT,
                       text_color=C_PRIMARY, border_width=1, border_color=C_BORDER,
-                      font=ctk.CTkFont(size=11),
+                      font=ctk.CTkFont(size=13),
                       command=lambda: self.navigate("home")).pack(side="right")
 
-        self.progress_label = ctk.CTkLabel(self, text="", font=ctk.CTkFont(size=12),
+        self.progress_label = ctk.CTkLabel(self, text="", font=ctk.CTkFont(size=13),
                                            text_color=C_SUB)
         self.progress_label.pack(anchor="w", padx=18)
 
         # 进度条
-        self.bar_bg = ctk.CTkFrame(self, fg_color=C_BORDER, height=6, corner_radius=3)
+        self.bar_bg = ctk.CTkFrame(self, fg_color=C_DIVIDER, height=6, corner_radius=3)
         self.bar_bg.pack(fill="x", padx=18, pady=(4, 8))
         self.bar_bg.pack_propagate(False)
         self.bar = ctk.CTkFrame(self.bar_bg, fg_color=C_PRIMARY, corner_radius=3)
@@ -291,21 +357,33 @@ class QuizPage(ctk.CTkFrame):
         self.q_card = _card(self)
         self.q_card.pack(fill="x", padx=16, pady=(0, 8))
 
-        self.mode_badge = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=11, weight="bold"),
+        # 题卡顶部：mascot 鼓励语带
+        mascot_row = ctk.CTkFrame(self.q_card, fg_color="transparent")
+        mascot_row.pack(fill="x", padx=14, pady=(12, 0))
+        ctk.CTkLabel(mascot_row, text="🐰", font=ctk.CTkFont(size=26),
+                     text_color=C_PRIMARY).pack(side="left")
+        ctk.CTkLabel(mascot_row, text="加油哦～ 这道题你一定会的！",
+                     font=ctk.CTkFont(size=14, weight="bold"),
+                     text_color=C_PRIMARY).pack(side="left", padx=(6, 0))
+        ctk.CTkLabel(mascot_row, text="🌸  ⭐  🎀",
+                     font=ctk.CTkFont(size=16),
+                     text_color=C_PRIMARY).pack(side="right")
+
+        self.mode_badge = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=12, weight="bold"),
                                        text_color="white", fg_color=C_PRIMARY,
-                                       corner_radius=8, width=80, height=22)
-        self.mode_badge.pack(anchor="w", padx=14, pady=(12, 4))
-        self.q_label = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=22, weight="bold"),
-                                    text_color=C_TEXT, wraplength=520, justify="center")
+                                       corner_radius=8, width=88, height=24)
+        self.mode_badge.pack(anchor="w", padx=14, pady=(6, 4))
+        self.q_label = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=26, weight="bold"),
+                                    text_color=C_TEXT, wraplength=560, justify="center")
         self.q_label.pack(padx=16, pady=(4, 4))
-        self.phon_label = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=13),
+        self.phon_label = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=14),
                                        text_color=C_SUB)
         self.phon_label.pack(padx=16, pady=(0, 6))
-        self.speak_btn = ctk.CTkButton(self.q_card, text="🔊  重听", width=110, height=32,
-                                        font=ctk.CTkFont(size=13, weight="bold"),
-                                        fg_color=C_BLUE, hover_color="#1d4ed8",
+        self.speak_btn = ctk.CTkButton(self.q_card, text="🔊  重听", width=120, height=36,
+                                        font=ctk.CTkFont(size=15, weight="bold"),
+                                        fg_color=C_BLUE, hover_color=C_BLUE_DARK,
                                         corner_radius=10, command=self._speak_current)
-        self.diff_label = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=11),
+        self.diff_label = ctk.CTkLabel(self.q_card, text="", font=ctk.CTkFont(size=12),
                                        text_color=C_MUTED)
         self.diff_label.pack(padx=16, anchor="w")
 
@@ -317,15 +395,17 @@ class QuizPage(ctk.CTkFrame):
         self.spell_submit_btn = None
         self.spell_hint_label = None
 
-        # 反馈
-        self.feedback_label = ctk.CTkLabel(self, text="", font=ctk.CTkFont(size=13),
-                                           text_color=C_GREEN, wraplength=520, justify="left")
-        self.feedback_label.pack(padx=18, pady=(0, 4))
+        # 反馈（评价 / 例句 / 释义）：字号特别加大
+        feedback_card = ctk.CTkFrame(self, fg_color="transparent")
+        feedback_card.pack(fill="x", padx=18, pady=(0, 4))
+        self.feedback_label = ctk.CTkLabel(feedback_card, text="", font=ctk.CTkFont(size=16, weight="bold"),
+                                           text_color=C_GREEN, wraplength=600, justify="left")
+        self.feedback_label.pack(anchor="w")
 
-        self.next_btn = ctk.CTkButton(self, text="下一题 →", font=ctk.CTkFont(size=14, weight="bold"),
+        self.next_btn = ctk.CTkButton(self, text="下一题 →", font=ctk.CTkFont(size=16, weight="bold"),
                                       fg_color=C_PRIMARY, hover_color=C_PRIMARY_DARK,
-                                      corner_radius=12, height=40, command=self._next)
-        self.next_btn.pack(pady=(0, 10))
+                                      corner_radius=12, height=46, width=160, command=self._next)
+        self.next_btn.pack(pady=(4, 10))
 
         if not self.questions:
             self.q_label.configure(text="该主题暂无单词")
@@ -360,14 +440,14 @@ class QuizPage(ctk.CTkFrame):
         if q.get("word"):
             if q["mode"] == "listen":
                 self.speak_btn.configure(text="🔊  播放发音", fg_color=C_BLUE,
-                                          width=140, height=36)
+                                          width=160, height=42)
                 self.speak_btn.pack(pady=(4, 6))
                 self.after(150, lambda w=q["word"]: voice.speak(w))
             elif q["mode"] == "choose_meaning":
                 # 题面是英文，提供小喇叭辅助听音
                 # spell / choose_word / listen 不在答题前显示，避免泄题
                 self.speak_btn.configure(text="🔊  听发音", fg_color=C_BLUE,
-                                          width=110, height=32)
+                                          width=130, height=36)
                 self.speak_btn.pack(pady=(2, 6))
 
         # 清空选项区
@@ -390,34 +470,40 @@ class QuizPage(ctk.CTkFrame):
             self._render_options(q)
 
     def _render_options(self, q):
+        # 2×2 网格布局：选项左右两列，字号加大
+        self.opt_frame.grid_columnconfigure(0, weight=1, uniform="opt")
+        self.opt_frame.grid_columnconfigure(1, weight=1, uniform="opt")
         for i, opt in enumerate(q["options"]):
             btn = ctk.CTkButton(self.opt_frame,
                                 text=f"  {chr(65 + i)}.  {opt}",
-                                font=ctk.CTkFont(size=14),
+                                font=ctk.CTkFont(size=16, weight="bold"),
                                 fg_color=C_CARD, hover_color=C_PRIMARY_LIGHT,
                                 text_color=C_TEXT, border_width=1, border_color=C_BORDER,
-                                corner_radius=10, height=42, anchor="w",
+                                corner_radius=10, height=52, anchor="w",
                                 command=lambda idx=i: self._answer_choice(idx))
-            btn.pack(fill="x", padx=4, pady=3)
+            btn.grid(row=i // 2, column=i % 2, sticky="nsew", padx=6, pady=4)
             self.opt_buttons.append(btn)
 
     def _render_spell(self, q):
+        # 拼写模式用单列（不占用 grid 配置，避免与选项二列冲突）
+        self.opt_frame.grid_columnconfigure(0, weight=1, uniform="opt")
+        self.opt_frame.grid_columnconfigure(1, weight=0, uniform="opt")
         self.spell_hint_label = ctk.CTkLabel(self.opt_frame, text=f"提示：{q['hint']}",
-                                              font=ctk.CTkFont(size=14, weight="bold"),
+                                              font=ctk.CTkFont(size=16, weight="bold"),
                                               text_color=C_PRIMARY)
-        self.spell_hint_label.pack(pady=(2, 6))
-        self.spell_entry = ctk.CTkEntry(self.opt_frame, height=40, corner_radius=10,
-                                         border_color=C_BORDER, font=ctk.CTkFont(size=16),
+        self.spell_hint_label.grid(row=0, column=0, columnspan=2, pady=(4, 8), padx=20, sticky="w")
+        self.spell_entry = ctk.CTkEntry(self.opt_frame, height=46, corner_radius=10,
+                                         border_color=C_BORDER, font=ctk.CTkFont(size=18),
                                          placeholder_text="在这里输入英文单词...")
-        self.spell_entry.pack(fill="x", padx=20, pady=4)
+        self.spell_entry.grid(row=1, column=0, columnspan=2, sticky="ew", padx=20, pady=4)
         self.spell_entry.bind("<Return>", lambda e: self._answer_spell())
         self.spell_entry.focus_set()
         self.spell_submit_btn = ctk.CTkButton(self.opt_frame, text="提交答案",
-                                               font=ctk.CTkFont(size=13, weight="bold"),
+                                               font=ctk.CTkFont(size=15, weight="bold"),
                                                fg_color=C_PRIMARY, hover_color=C_PRIMARY_DARK,
-                                               corner_radius=10, height=34,
+                                               corner_radius=10, height=40, width=140,
                                                command=self._answer_spell)
-        self.spell_submit_btn.pack(pady=6)
+        self.spell_submit_btn.grid(row=2, column=0, columnspan=2, pady=8)
 
     def _speak_current(self):
         if self.idx < len(self.questions):
@@ -503,25 +589,25 @@ class QuizPage(ctk.CTkFrame):
         passed = acc >= 60
 
         ctk.CTkLabel(self.q_card,
-                     text=("闯关成功！" if passed else "再来一轮吧！"),
-                     font=ctk.CTkFont(size=24, weight="bold"),
+                     text=("闯关成功！" if passed else "加油，再来一轮！"),
+                     font=ctk.CTkFont(size=28, weight="bold"),
                      text_color=(C_GREEN if passed else C_ORANGE)
-                     ).pack(pady=(20, 6))
-        ctk.CTkLabel(self.q_card, text=f"得分：{self.score}/{n}  正确率：{acc}%",
-                     font=ctk.CTkFont(size=16), text_color=C_TEXT).pack(pady=(0, 6))
+                     ).pack(pady=(22, 8))
+        ctk.CTkLabel(self.q_card, text=f"得分：{self.score}/{n}  ·  正确率：{acc}%",
+                     font=ctk.CTkFont(size=18, weight="bold"), text_color=C_TEXT).pack(pady=(0, 8))
         tip = random.choice(YY_TOPICS.get(self.topic, {}).get("tips", YY_TIPS))
-        ctk.CTkLabel(self.q_card, text=f"小贴士：{tip}", font=ctk.CTkFont(size=12),
-                     text_color=C_SUB, wraplength=420).pack(padx=20, pady=(4, 16))
+        ctk.CTkLabel(self.q_card, text=f"小贴士：{tip}", font=ctk.CTkFont(size=14),
+                     text_color=C_SUB, wraplength=520).pack(padx=20, pady=(4, 18))
         btn_row = ctk.CTkFrame(self.q_card, fg_color="transparent")
         btn_row.pack(pady=(0, 16))
-        ctk.CTkButton(btn_row, text="再来一轮", font=ctk.CTkFont(size=14, weight="bold"),
+        ctk.CTkButton(btn_row, text="再来一轮", font=ctk.CTkFont(size=16, weight="bold"),
                       fg_color=C_PRIMARY, hover_color=C_PRIMARY_DARK, corner_radius=12,
-                      width=120, command=lambda: self.navigate("quiz", self.topic)
+                      width=140, height=44, command=lambda: self.navigate("quiz", self.topic)
                       ).pack(side="left", padx=6)
-        ctk.CTkButton(btn_row, text="返回首页", font=ctk.CTkFont(size=14),
+        ctk.CTkButton(btn_row, text="返回首页", font=ctk.CTkFont(size=16),
                       fg_color=C_CARD, hover_color=C_PRIMARY_LIGHT, text_color=C_PRIMARY,
                       border_width=1, border_color=C_PRIMARY, corner_radius=12,
-                      width=120, command=lambda: self.navigate("home")
+                      width=140, height=44, command=lambda: self.navigate("home")
                       ).pack(side="left", padx=6)
 
 
@@ -620,7 +706,7 @@ class AIAnalysisPage(ctk.CTkFrame):
         for w in self.result_frame.winfo_children():
             w.destroy()
         ctk.CTkLabel(self.result_frame, text=f"识别失败：{msg}",
-                     font=ctk.CTkFont(size=13), text_color="#dc2626",
+                     font=ctk.CTkFont(size=13), text_color=C_RED,
                      wraplength=480).pack(pady=20, padx=14, anchor="w")
 
     def _render_predict(self, word_obj, result, diff, analysis):
@@ -643,7 +729,7 @@ class AIAnalysisPage(ctk.CTkFrame):
             row.pack(fill="x", padx=14, pady=1)
             ctk.CTkLabel(row, text=topic_name, font=ctk.CTkFont(size=11),
                          text_color=C_TEXT, width=80).pack(side="left")
-            bar_bg = ctk.CTkFrame(row, fg_color=C_BORDER, height=12, corner_radius=6)
+            bar_bg = ctk.CTkFrame(row, fg_color=C_DIVIDER, height=12, corner_radius=6)
             bar_bg.pack(side="left", fill="x", expand=True, padx=(4, 8))
             bar_bg.pack_propagate(False)
             bar = ctk.CTkFrame(bar_bg, fg_color=C_PRIMARY if prob > 10 else C_MUTED,
@@ -697,40 +783,55 @@ class SentencePage(ctk.CTkFrame):
     def __init__(self, master, nav_fn):
         super().__init__(master, fg_color=C_BG)
         self.navigate = nav_fn
-        ctk.CTkLabel(self, text="英语句型分析",
-                     font=ctk.CTkFont(size=20, weight="bold"),
-                     text_color=C_PRIMARY_DARK).pack(anchor="w", padx=18, pady=(14, 4))
+        # 标题区带 mascot 装饰
+        sent_head = ctk.CTkFrame(self, fg_color="transparent")
+        sent_head.pack(fill="x", padx=18, pady=(14, 4))
+        ctk.CTkLabel(sent_head, text="🦊", font=ctk.CTkFont(size=28),
+                     text_color=C_PRIMARY).pack(side="left", padx=(0, 8))
+        ctk.CTkLabel(sent_head, text="英语句型分析",
+                     font=ctk.CTkFont(size=22, weight="bold"),
+                     text_color=C_PRIMARY_DARK).pack(side="left")
+        ctk.CTkLabel(sent_head, text="🌸  🐰  ⭐",
+                     font=ctk.CTkFont(size=20),
+                     text_color=C_PRIMARY).pack(side="right")
         ctk.CTkLabel(self, text="输入一句英语，AI 自动识别它属于哪种句型",
-                     font=ctk.CTkFont(size=12), text_color=C_SUB
+                     font=ctk.CTkFont(size=13), text_color=C_SUB
                      ).pack(anchor="w", padx=18, pady=(0, 8))
 
         scroll = ctk.CTkScrollableFrame(self, fg_color="transparent")
         scroll.pack(fill="both", expand=True, padx=0, pady=(0, 6))
 
-        # ── 自动模式 ──
-        auto_card = _card(scroll)
-        auto_card.pack(fill="x", padx=16, pady=(0, 8))
-        ctk.CTkLabel(auto_card, text="自动模式（推荐）",
-                     font=ctk.CTkFont(size=14, weight="bold"),
-                     text_color=C_BLUE).pack(padx=14, pady=(10, 2), anchor="w")
-        ctk.CTkLabel(auto_card, text="直接输入一句英语，系统会自动提取特征",
-                     font=ctk.CTkFont(size=11), text_color=C_SUB
-                     ).pack(padx=14, anchor="w")
-        self.sent_entry = ctk.CTkEntry(auto_card, height=34, corner_radius=8,
-                                        border_color=C_BORDER, font=ctk.CTkFont(size=14),
-                                        placeholder_text="例如 Where is my book?")
-        self.sent_entry.pack(fill="x", padx=14, pady=6)
-        self.sent_entry.insert(0, "Where is my book?")
-        ctk.CTkButton(auto_card, text="自动识别", font=ctk.CTkFont(size=13, weight="bold"),
-                      fg_color=C_BLUE, hover_color="#1d4ed8", corner_radius=10,
-                      height=34, command=self._auto_predict).pack(padx=14, pady=(0, 12), anchor="w")
+        # 上层：自动模式 + 手动模式 左右两列
+        two_col = ctk.CTkFrame(scroll, fg_color="transparent")
+        two_col.pack(fill="x", padx=14, pady=(0, 8))
+        two_col.grid_columnconfigure(0, weight=1, uniform="sent")
+        two_col.grid_columnconfigure(1, weight=1, uniform="sent")
 
-        # ── 手动模式 ──
-        form = _card(scroll)
-        form.pack(fill="x", padx=16, pady=(0, 8))
-        ctk.CTkLabel(form, text="手动模式（自定义8特征）",
-                     font=ctk.CTkFont(size=14, weight="bold"),
-                     text_color=C_PURPLE).pack(padx=14, pady=(10, 2), anchor="w")
+        # ── 自动模式（左）──上色：淡蓝底 + 蓝描边
+        auto_card = _card(two_col, fg_color=C_BLUE_LIGHT, border_color=C_BLUE)
+        auto_card.grid(row=0, column=0, sticky="nsew", padx=(0, 6), pady=0)
+        ctk.CTkLabel(auto_card, text="自动模式（推荐）",
+                     font=ctk.CTkFont(size=16, weight="bold"),
+                     text_color=C_BLUE).pack(padx=14, pady=(12, 4), anchor="w")
+        ctk.CTkLabel(auto_card, text="直接输入一句英语，系统自动提取特征",
+                     font=ctk.CTkFont(size=12), text_color=C_SUB
+                     ).pack(padx=14, anchor="w")
+        self.sent_entry = ctk.CTkEntry(auto_card, height=38, corner_radius=8,
+                                        border_color=C_BORDER, font=ctk.CTkFont(size=15),
+                                        placeholder_text="例如 Where is my book?")
+        self.sent_entry.pack(fill="x", padx=14, pady=8)
+        self.sent_entry.insert(0, "Where is my book?")
+        ctk.CTkButton(auto_card, text="自动识别", font=ctk.CTkFont(size=14, weight="bold"),
+                      fg_color=C_BLUE, hover_color=C_BLUE_DARK, corner_radius=10,
+                      height=38, width=140,
+                      command=self._auto_predict).pack(padx=14, pady=(0, 14), anchor="w")
+
+        # ── 手动模式（右）──上色：淡紫底 + 紫描边
+        form = _card(two_col, fg_color=C_PURPLE_LIGHT, border_color=C_PURPLE)
+        form.grid(row=0, column=1, sticky="nsew", padx=(6, 0), pady=0)
+        ctk.CTkLabel(form, text="手动模式（自定义 8 特征）",
+                     font=ctk.CTkFont(size=16, weight="bold"),
+                     text_color=C_PURPLE).pack(padx=14, pady=(12, 4), anchor="w")
         fields = [
             ("单词数", "5"),
             ("是否含问号 (0/1)", "1"),
@@ -745,18 +846,19 @@ class SentencePage(ctk.CTkFrame):
         for label, default in fields:
             row = ctk.CTkFrame(form, fg_color="transparent")
             row.pack(fill="x", padx=14, pady=2)
-            ctk.CTkLabel(row, text=label, font=ctk.CTkFont(size=12),
-                         text_color=C_TEXT, width=240).pack(side="left")
-            entry = ctk.CTkEntry(row, font=ctk.CTkFont(size=12), height=30,
-                                 corner_radius=8, border_color=C_BORDER, width=80)
-            entry.pack(side="left")
+            ctk.CTkLabel(row, text=label, font=ctk.CTkFont(size=13),
+                         text_color=C_TEXT, width=220, anchor="w").pack(side="left")
+            entry = ctk.CTkEntry(row, font=ctk.CTkFont(size=13), height=32,
+                                 corner_radius=8, border_color=C_BORDER, width=70)
+            entry.pack(side="right", padx=(6, 0))
             entry.insert(0, default)
             self.entries.append(entry)
-        ctk.CTkButton(form, text="手动识别", font=ctk.CTkFont(size=13, weight="bold"),
-                      fg_color=C_PURPLE, hover_color="#6d28d9", corner_radius=10,
-                      height=34, command=self._manual_predict
-                      ).pack(padx=14, pady=(6, 12), anchor="w")
+        ctk.CTkButton(form, text="手动识别", font=ctk.CTkFont(size=14, weight="bold"),
+                      fg_color=C_PURPLE, hover_color=C_PURPLE_DARK, corner_radius=10,
+                      height=38, width=140, command=self._manual_predict
+                      ).pack(padx=14, pady=(8, 14), anchor="w")
 
+        # 下层：识别结果 / 解释区（后面起到越宽越好，现在上面两列后顶部留出更多位置）
         self.result_frame = ctk.CTkFrame(scroll, fg_color="transparent")
         self.result_frame.pack(fill="x", padx=16, pady=(0, 12))
 
@@ -832,7 +934,7 @@ class ToolPage(ctk.CTkFrame):
         self.grade_entry.pack(side="left", padx=6)
         self.grade_entry.insert(0, "4")
         ctk.CTkButton(r1, text="查一查", width=70, height=30, corner_radius=8,
-                      fg_color=C_PURPLE, hover_color="#6d28d9",
+                      fg_color=C_PURPLE, hover_color=C_PURPLE_DARK,
                       command=self._predict_vocab).pack(side="left", padx=4)
         self.vocab_result = ctk.CTkLabel(sec1, text="", font=ctk.CTkFont(size=12),
                                          text_color=C_SUB, wraplength=480, justify="left")
@@ -852,7 +954,7 @@ class ToolPage(ctk.CTkFrame):
         self.word_entry.pack(side="left", fill="x", expand=True, padx=(0, 6))
         self.word_entry.insert(0, "running")
         ctk.CTkButton(r2, text="分析", width=60, height=30, corner_radius=8,
-                      fg_color=C_BLUE, hover_color="#1d4ed8",
+                      fg_color=C_BLUE, hover_color=C_BLUE_DARK,
                       command=self._analyze_word).pack(side="left", padx=4)
         self.word_result = ctk.CTkLabel(sec2, text="", font=ctk.CTkFont(size=12),
                                          text_color=C_SUB, wraplength=480, justify="left")
@@ -869,7 +971,7 @@ class ToolPage(ctk.CTkFrame):
         self.count_box.pack(fill="x", padx=14, pady=4)
         self.count_box.insert("0.0", "Hello! How are you today? I am fine, thank you.")
         ctk.CTkButton(sec3, text="统计", width=80, height=30, corner_radius=8,
-                      fg_color=C_GREEN, hover_color="#15803d",
+                      fg_color=C_GREEN, hover_color=C_GREEN_DARK,
                       command=self._count).pack(padx=14, pady=(2, 4), anchor="w")
         self.count_result = ctk.CTkLabel(sec3, text="", font=ctk.CTkFont(size=12),
                                           text_color=C_SUB, wraplength=480)
@@ -889,7 +991,7 @@ class ToolPage(ctk.CTkFrame):
         self.lookup_entry.pack(side="left", fill="x", expand=True, padx=(0, 6))
         self.lookup_entry.insert(0, "apple")
         ctk.CTkButton(r4, text="查询", width=60, height=30, corner_radius=8,
-                      fg_color=C_ORANGE, hover_color="#c2410c",
+                      fg_color=C_ORANGE, hover_color=C_ORANGE_DARK,
                       command=self._lookup).pack(side="left", padx=4)
         self.lookup_result = ctk.CTkLabel(sec4, text="", font=ctk.CTkFont(size=12),
                                            text_color=C_SUB, wraplength=480, justify="left")
@@ -977,7 +1079,7 @@ class WordManagePage(ctk.CTkFrame):
                      text_color=C_PRIMARY_DARK).pack(side="left")
         self.toggle_add_btn = ctk.CTkButton(head, text="＋ 添加自定义单词",
                                              width=130, height=32, corner_radius=10,
-                                             fg_color=C_GREEN, hover_color="#15803d",
+                                             fg_color=C_GREEN, hover_color=C_GREEN_DARK,
                                              font=ctk.CTkFont(size=12, weight="bold"),
                                              command=self._toggle_add)
         self.toggle_add_btn.pack(side="right")
@@ -1098,7 +1200,7 @@ class WordManagePage(ctk.CTkFrame):
         _row("例句翻译:", "可选，例句中文翻译", "example_zh_entry")
 
         ctk.CTkButton(parent, text="添加单词", font=ctk.CTkFont(size=13, weight="bold"),
-                      fg_color=C_GREEN, hover_color="#15803d", corner_radius=10,
+                      fg_color=C_GREEN, hover_color=C_GREEN_DARK, corner_radius=10,
                       height=34, command=self._add).pack(padx=14, pady=(8, 12), anchor="w")
 
     def _toggle_add(self):
@@ -1255,7 +1357,7 @@ class WordManagePage(ctk.CTkFrame):
 
             if src == "custom":
                 ctk.CTkButton(card, text="删除", width=50, height=28, corner_radius=8,
-                              fg_color=C_RED, hover_color="#b91c1c", text_color="white",
+                              fg_color=C_RED, hover_color=C_RED_DARK, text_color="white",
                               font=ctk.CTkFont(size=11),
                               command=lambda idx=custom_idx: self._delete_custom(idx)
                               ).pack(side="right", padx=10)
@@ -1315,7 +1417,7 @@ class StatsPage(ctk.CTkFrame):
                 ctk.CTkLabel(row, text=MODE_LABEL.get(mode_key, mode_key),
                              font=ctk.CTkFont(size=12, weight="bold"),
                              text_color=C_TEXT, width=90).pack(side="left")
-                bar_bg = ctk.CTkFrame(row, fg_color=C_BORDER, height=12, corner_radius=6)
+                bar_bg = ctk.CTkFrame(row, fg_color=C_DIVIDER, height=12, corner_radius=6)
                 bar_bg.pack(side="left", fill="x", expand=True, padx=8)
                 bar_bg.pack_propagate(False)
                 clr = C_GREEN if acc >= 70 else (C_ORANGE if acc >= 40 else C_RED)
@@ -1339,7 +1441,7 @@ class StatsPage(ctk.CTkFrame):
             ctk.CTkLabel(row, text=f"{info['icon']}  {info['name']}",
                          font=ctk.CTkFont(size=13, weight="bold"),
                          text_color=C_TEXT, width=130).pack(side="left")
-            bar_bg = ctk.CTkFrame(row, fg_color=C_BORDER, height=14, corner_radius=7)
+            bar_bg = ctk.CTkFrame(row, fg_color=C_DIVIDER, height=14, corner_radius=7)
             bar_bg.pack(side="left", fill="x", expand=True, padx=8)
             bar_bg.pack_propagate(False)
             clr = (C_GREEN if acc >= 70 else (C_ORANGE if acc >= 40 else C_RED)) if ts["total"] > 0 else C_MUTED
@@ -1399,7 +1501,7 @@ class ModelInfoPage(ctk.CTkFrame):
             pass
         ctk.CTkLabel(self.content_frame,
                      text=f"系统信息加载失败：\n{msg}\n\n请在终端执行 `python build_models.py` 重新生成模型 pkl。",
-                     font=ctk.CTkFont(size=13), text_color="#dc2626",
+                     font=ctk.CTkFont(size=13), text_color=C_RED,
                      wraplength=500, justify="left"
                      ).pack(pady=20, padx=14, anchor="w")
 
